@@ -1,0 +1,5 @@
+backports.tarfile==1.2.0
+importlib-metadata==8.0.0
+ipykernel==6.29.5
+jaraco.collections==5.1.0
+tomli==2.0.1

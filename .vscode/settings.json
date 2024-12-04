@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "test1": true,
+        "test2": true
+    }
+}
