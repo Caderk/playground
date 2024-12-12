@@ -12,6 +12,9 @@
 		},
 		{
 			"path": "../ruufsolar"
+		},
+		{
+			"path": "../coding_problems"
 		}
 	]
 }

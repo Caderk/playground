@@ -2,6 +2,7 @@
     "files.exclude": {
         "test1": true,
         "test2": true,
+        "coding_problems": true,
         "ruufsolar": true,
     }
 }
