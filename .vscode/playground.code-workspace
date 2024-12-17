@@ -15,6 +15,9 @@
 		},
 		{
 			"path": "../coding_problems"
+		},
+		{
+			"path": "../neetcode150"
 		}
 	]
 }
