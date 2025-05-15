@@ -1,28 +1,32 @@
 {
-	"folders": [
-		{
-			"name": "playground",
-			"path": ".."
-		},
-		{
-			"path": "../ruufsolar"
-		},
-		{
-			"path": "../coding_problems"
-		},
-		{
-			"path": "../neetcode150"
-		},
-		{
-			"path": "../mariokartstats"
-		}
-	],
-	"settings": {
-		"files.exclude": {
-			"coding_problems": true,
-			"ruufsolar": true,
-			"neetcode150": true,
-			"mariokartstats": true
-		}
-	}
+  "folders": [
+    {
+      "name": "playground",
+      "path": ".."
+    },
+    {
+      "path": "../ruufsolar"
+    },
+    {
+      "path": "../coding_problems"
+    },
+    {
+      "path": "../neetcode150"
+    },
+    {
+      "path": "../mariokartstats"
+    },
+    {
+      "path": "../mtg-tag-count"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "coding_problems": true,
+      "ruufsolar": true,
+      "neetcode150": true,
+      "mariokartstats": true,
+      "mtg-tag-count": true
+    }
+  }
 }
