@@ -1,0 +1,15 @@
+{
+  "tags": {
+    "ramp": 12,
+    "removal": 10,
+    "protects-permanent": 5,
+    "card advantage": 10,
+    "sweeper": 4,
+    "recursion": 4,
+    "tutor": 5,
+    "land": 38
+  },
+  "exclude": {
+    "tutor": ["tutor-land"]
+  }
+}
