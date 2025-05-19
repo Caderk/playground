@@ -17,6 +17,9 @@
       "path": "../mariokartstats"
     },
     {
+      "path": "../credit_card_debt"
+    },
+    {
       "path": "../mtg-tag-count"
     }
   ],
@@ -26,7 +29,8 @@
       "ruufsolar": true,
       "neetcode150": true,
       "mariokartstats": true,
-      "mtg-tag-count": true
+      "mtg-tag-count": true,
+      "credit_card_debt": true
     }
   }
 }
