@@ -6,3 +6,4 @@ sweeper
 recursion
 tutor
 tutor-land
+tutor-land-basic

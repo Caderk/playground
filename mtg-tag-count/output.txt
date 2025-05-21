@@ -1,672 +1,413 @@
-Processed Sol Ring
-Processed Command Tower
-Processed Arcane Signet
-Processed Exotic Orchard
-Processed Reliquary Tower
-Processed Swords to Plowshares
-Processed Swiftfoot Boots
-Processed Lightning Greaves
-Processed Path of Ancestry
-Processed Path to Exile
-Processed Evolving Wilds
-Processed Fellwar Stone
-Processed Cultivate
-Processed Rogue's Passage
-Processed Myriad Landscape
-Processed Beast Within
-Processed Thought Vessel
-Processed Mind Stone
-Processed Blasphemous Act
-Processed Farseek
-Processed Rampant Growth
-Processed Terramorphic Expanse
-Processed Chaos Warp
-Processed Nature's Lore
-Processed Commander's Sphere
-Processed Kodama's Reach
-Processed Heroic Intervention
-Processed Solemn Simulacrum
-Processed Birds of Paradise
-Processed Skullclamp
-Processed Misty Rainforest
-Processed Polluted Delta
-Processed Three Visits
-Processed Generous Gift
-Processed Verdant Catacombs
-Processed Marsh Flats
-Processed Flooded Strand
-Processed Scalding Tarn
-Processed Bloodstained Mire
-Processed Windswept Heath
-Processed Wooded Foothills
-Processed Arid Mesa
-Processed Llanowar Elves
-Processed Temple of the False God
-Processed Urborg, Tomb of Yawgmoth
-Processed Wayfarer's Bauble
-Processed Chromatic Lantern
-Processed Eternal Witness
-Processed Yavimaya, Cradle of Growth
-Processed Esper Sentinel
-Processed Fabled Passage
-Processed Boseiju, Who Endures
-Processed Stomping Ground
-Processed Sakura-Tribe Elder
-Processed Cinder Glade
-Processed Temple Garden
-Processed Elvish Mystic
-Processed Faithless Looting
-Processed Sacred Foundry
-Processed Canopy Vista
-Processed City of Brass
-Processed Garruk's Uprising
-Processed Vandalblast
-Processed Cavern of Souls
-Processed Clifftop Retreat
-Processed Mana Confluence
-Processed Ashnod's Altar
-Processed Urza's Saga
-Processed Lotus Petal
-Processed Herald's Horn
-Processed War Room
-Processed Battlefield Forge
-Processed Roaming Throne
-Processed Return of the Wildspeaker
-Processed Farewell
-Processed Austere Command
-Processed Abrade
-Processed Rootbound Crag
-Processed Delighted Halfling
-Processed Spectator Seating
-Processed Talisman of Conviction
-Processed Boros Charm
-Processed Fyndhorn Elves
-Processed Sunpetal Grove
-Processed Nykthos, Shrine to Nyx
-Processed Mana Crypt
-Processed Beast Whisperer
-Processed Reflecting Pool
-Processed Lightning Bolt
-Processed Ghostly Prison
-Processed Spire Garden
-Processed Ash Barrens
-Processed Tireless Provisioner
-Processed Rhythm of the Wild
-Processed Prismatic Vista
-Processed Wild Growth
-Processed Bountiful Promenade
-Processed Boros Signet
-Processed Mosswort Bridge
-Processed Impact Tremors
-Processed Unclaimed Territory
-Processed Gemstone Caverns
-Processed Sensei's Divining Top
-Processed Sylvan Library
-Processed Thrill of Possibility
-Processed Rockfall Vale
-Processed Buried Ruin
-Processed Thran Dynamo
-Processed Idol of Oblivion
-Processed Rishkar's Expertise
-Processed Karn's Bastion
-Processed Secluded Courtyard
-Processed Flawless Maneuver
-Processed Command Beacon
-Processed Reclamation Sage
-Processed The Great Henge
-Processed Scute Swarm
-Processed Doubling Season
-Processed Big Score
-Processed Ornithopter of Paradise
-Processed Explore
-Processed Everflowing Chalice
-Processed Mithril Coat
-Processed Mox Opal
-Processed Akroma's Will
-Processed Hardened Scales
-Processed Decanter of Endless Water
-Processed Etali, Primal Storm
-Processed Harrow
-Processed Sun Titan
-Processed Storm-Kiln Artist
-Processed Stroke of Midnight
-Processed Mox Amber
-Processed Sword of the Animist
-Processed Avenger of Zendikar
-Processed Grand Abolisher
-Processed Professional Face-Breaker
-Processed Skyshroud Claim
-Processed Academy Manufactor
-Processed Foundry Inspector
-Processed Karplusan Forest
-Processed Vanquisher's Banner
-Processed Temple of Triumph
-Processed Panharmonicon
-Processed Harmonize
-Processed Guardian Project
-Processed Shamanic Revelation
-Processed Bala Ged Recovery // Bala Ged Sanctuary
-Processed Nature's Claim
-Processed Burnished Hart
-Processed Jungle Shrine
-Processed Blackblade Reforged
-Processed Exploration
-Processed Phyrexian Altar
-Processed Anointed Procession
-Processed Finale of Devastation
-Processed Whispersilk Cloak
-Processed Ragavan, Nimble Pilferer
-Processed Inspiring Call
-Processed Brushland
-Processed Jeweled Lotus
-Processed Utopia Sprawl
-Processed Basilisk Collar
-Processed Dryad of the Ilysian Grove
-Processed Dockside Extortionist
-Processed Inventors' Fair
-Processed Eiganjo, Seat of the Empire
-Processed Darksteel Citadel
-Processed Bloom Tender
-Processed Jetmir's Garden
-Processed Overgrown Farmland
-Processed Azusa, Lost but Seeking
-Processed Game Trail
-Processed Kessig Wolf Run
-Processed Mondrak, Glory Dominus
-Processed Sundown Pass
-Processed Fortified Village
-Processed The Ozolith
-Processed Aetherflux Reservoir
-Processed Urza's Incubator
-Processed Geier Reach Sanitarium
-Processed Shadowspear
-Processed Scavenger Grounds
-Processed Lotus Cobra
-Processed Gruul Turf
-Processed Toski, Bearer of Secrets
-Processed Minas Tirith
-Processed Sevinne's Reclamation
-Processed Rampaging Baloths
-Processed Parallel Lives
-Processed Gilded Lotus
-Processed Three Tree City
-Processed Boros Garrison
-Processed Helm of the Host
-Processed Mana Geyser
-Processed Temple of Abandon
-Processed Furycalm Snarl
-Processed Kami of Whispered Hopes
-Processed Unexpected Windfall
-Processed Jet Medallion
-Processed Ramunap Excavator
-Processed Tribute to the World Tree
-Processed Guttersnipe
-Processed Liquimetal Torque
-Processed Goblin Bombardment
-Processed Red Elemental Blast
-Processed Unbreakable Formation
-Processed Blind Obedience
-Processed Krosan Grip
-Processed Champion of Lambholt
-Processed Hall of Heliod's Generosity
-Processed Felidar Retreat
-Processed Entish Restoration
-Processed Patchwork Banner
-Processed Land Tax
-Processed Loran of the Third Path
-Processed Goldspan Dragon
-Processed Expedition Map
-Processed Evolution Sage
-Processed Temple of Plenty
-Processed Avacyn's Pilgrim
-Processed Strionic Resonator
-Processed Craterhoof Behemoth
-Processed Selesnya Sanctuary
-Processed Pyroblast
-Processed Forgotten Ancient
-Processed Spire of Industry
-Processed Mystic Forge
-Processed Anger
-Processed Goblin Anarchomancer
-Processed Silence
-Processed Tamiyo's Safekeeping
-Processed Hedron Archive
-Processed Demolition Field
-Processed Maskwood Nexus
-Processed Wood Elves
-Processed Mother of Runes
-Processed Welcoming Vampire
-Processed Ruby Medallion
-Processed Taiga
-Processed Psychosis Crawler
-Processed Unnatural Growth
-Processed Sungrass Prairie
-Processed Ohran Frostfang
-Processed Seething Song
-Processed Maze of Ith
-Processed Branching Evolution
-Processed Plaza of Heroes
-Processed Arbor Elf
-Processed Plateau
-Processed Savannah
-Processed Sram, Senior Edificer
-Processed High Market
-Processed Valakut Awakening // Valakut Stoneforge
-Processed Overwhelming Stampede
-Processed Kutzil, Malamet Exemplar
-Processed Wrath of God
-Processed Cursed Mirror
-Processed Mirari's Wake
-Processed Simian Spirit Guide
-Processed Kenrith's Transformation
-Processed Return to Nature
-Processed Birgi, God of Storytelling // Harnfel, Horn of Bounty
-Processed Ghalta, Primal Hunger
-Processed Conduit of Worlds
-Processed Mentor of the Meek
-Processed Strip Mine
-Processed Darksteel Mutation
-Processed Ephemerate
-Processed Terror of the Peaks
-Processed Imperial Recruiter
-Processed Basalt Monolith
-Processed Worn Powerstone
-Processed Chord of Calling
-Processed Veil of Summer
-Processed Selvala, Heart of the Wilds
-Processed Rugged Prairie
-Processed Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
-Processed Great Furnace
-Processed Mossfire Valley
-Processed Altar of Dementia
-Processed Adeline, Resplendent Cathar
-Processed Green Sun's Zenith
-Processed Forbidden Orchard
-Processed Unwinding Clock
-Processed Thespian's Stage
-Processed Knight of the White Orchid
-Processed Cankerbloom
-Processed Beastmaster Ascension
-Processed Sanctum Weaver
-Processed Treasure Vault
-Processed Oracle of Mul Daya
-Processed Opal Palace
-Processed Faeburrow Elder
-Processed Sapphire Medallion
-Processed Realmwalker
-Processed Cathars' Crusade
-Processed Tibalt's Trickery
-Processed Noxious Revival
-Processed Gruul Signet
-Processed Warstorm Surge
-Processed Fire Diamond
-Processed Chandra's Ignition
-Processed Elemental Bond
-Processed Walking Ballista
-Processed Crucible of Worlds
-Processed Archivist of Oghma
-Processed Soul Warden
-Processed Bonders' Enclave
-Processed All That Glitters
-Processed Krosan Verge
-Processed Emergence Zone
-Processed Blighted Woodland
-Processed Commander's Plate
-Processed Rising of the Day
-Processed Access Tunnel
-Processed Wheel of Fortune
-Processed Sword of Feast and Famine
-Processed Castle Ardenvale
-Processed Ozolith, the Shattered Spire
-Processed Intangible Virtue
-Processed Second Harvest
-Processed Tireless Tracker
-Processed Elesh Norn, Grand Cenobite
-Processed Ancient Den
-Processed Purphoros, God of the Forge
-Processed Talisman of Impulse
-Processed Dualcaster Mage
-Processed Greater Good
-Processed Windbrisk Heights
-Processed Shared Animosity
-Processed Castle Garenbrig
-Processed Etali, Primal Conqueror // Etali, Primal Sickness
-Processed Dispatch
-Processed Ghost Quarter
-Processed Jaheira, Friend of the Forest
-Processed Snakeskin Veil
-Processed Authority of the Consuls
-Processed Isochron Scepter
-Processed Conjurer's Closet
-Processed Chain Reaction
-Processed Rancor
-Processed Demand Answers
-Processed Sculpting Steel
-Processed Incubation Druid
-Processed Eladamri's Call
-Processed Eldritch Evolution
-Processed Young Pyromancer
-Processed Dawn's Truce
-Processed Oran-Rief, the Vastwood
-Report written to report.xlsx
-Building deck; initial requirements: {'ramp': 12, 'removal': 10, 'protects-permanent': 5, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Selecting 'Sol Ring' (Index 1) contributes: ['ramp']
-Remaining after selection: {'ramp': 11, 'removal': 10, 'protects-permanent': 5, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Skipping 'Command Tower' (Index 2): ramp not present; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Arcane Signet' (Index 3) contributes: ['ramp']
-Remaining after selection: {'ramp': 10, 'removal': 10, 'protects-permanent': 5, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Skipping 'Exotic Orchard' (Index 4): ramp not present; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Reliquary Tower' (Index 5): ramp not present; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Swords to Plowshares' (Index 6) contributes: ['removal']
-Remaining after selection: {'ramp': 10, 'removal': 9, 'protects-permanent': 5, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Selecting 'Swiftfoot Boots' (Index 7) contributes: ['protects-permanent']
-Remaining after selection: {'ramp': 10, 'removal': 9, 'protects-permanent': 4, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Selecting 'Lightning Greaves' (Index 8) contributes: ['protects-permanent']
-Remaining after selection: {'ramp': 10, 'removal': 9, 'protects-permanent': 3, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Skipping 'Path of Ancestry' (Index 9): ramp not present; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Path to Exile' (Index 10) contributes: ['ramp', 'removal']
-Remaining after selection: {'ramp': 9, 'removal': 8, 'protects-permanent': 3, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Skipping 'Evolving Wilds' (Index 11): ramp not present; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Selecting 'Fellwar Stone' (Index 12) contributes: ['ramp']
-Remaining after selection: {'ramp': 8, 'removal': 8, 'protects-permanent': 3, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Selecting 'Cultivate' (Index 13) contributes: ['ramp']
-Remaining after selection: {'ramp': 7, 'removal': 8, 'protects-permanent': 3, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Skipping 'Rogue's Passage' (Index 14): ramp not present; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Myriad Landscape' (Index 15) contributes: ['ramp']
-Remaining after selection: {'ramp': 6, 'removal': 8, 'protects-permanent': 3, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Selecting 'Beast Within' (Index 16) contributes: ['removal']
-Remaining after selection: {'ramp': 6, 'removal': 7, 'protects-permanent': 3, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Selecting 'Thought Vessel' (Index 17) contributes: ['ramp']
-Remaining after selection: {'ramp': 5, 'removal': 7, 'protects-permanent': 3, 'card advantage': 10, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Selecting 'Mind Stone' (Index 18) contributes: ['ramp', 'card advantage']
-Remaining after selection: {'ramp': 4, 'removal': 7, 'protects-permanent': 3, 'card advantage': 9, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Selecting 'Blasphemous Act' (Index 19) contributes: ['sweeper']
-Remaining after selection: {'ramp': 4, 'removal': 7, 'protects-permanent': 3, 'card advantage': 9, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Selecting 'Farseek' (Index 20) contributes: ['ramp']
-Remaining after selection: {'ramp': 3, 'removal': 7, 'protects-permanent': 3, 'card advantage': 9, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Selecting 'Rampant Growth' (Index 21) contributes: ['ramp']
-Remaining after selection: {'ramp': 2, 'removal': 7, 'protects-permanent': 3, 'card advantage': 9, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Skipping 'Terramorphic Expanse' (Index 22): ramp not present; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Selecting 'Chaos Warp' (Index 23) contributes: ['removal']
-Remaining after selection: {'ramp': 2, 'removal': 6, 'protects-permanent': 3, 'card advantage': 9, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Selecting 'Nature's Lore' (Index 24) contributes: ['ramp']
-Remaining after selection: {'ramp': 1, 'removal': 6, 'protects-permanent': 3, 'card advantage': 9, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Selecting 'Commander's Sphere' (Index 25) contributes: ['ramp', 'card advantage']
-Remaining after selection: {'ramp': 0, 'removal': 6, 'protects-permanent': 3, 'card advantage': 8, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Skipping 'Kodama's Reach' (Index 26): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Selecting 'Heroic Intervention' (Index 27) contributes: ['protects-permanent']
-Remaining after selection: {'ramp': 0, 'removal': 6, 'protects-permanent': 2, 'card advantage': 8, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Selecting 'Solemn Simulacrum' (Index 28) contributes: ['card advantage']
-Remaining after selection: {'ramp': 0, 'removal': 6, 'protects-permanent': 2, 'card advantage': 7, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Skipping 'Birds of Paradise' (Index 29): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Skullclamp' (Index 30) contributes: ['card advantage']
-Remaining after selection: {'ramp': 0, 'removal': 6, 'protects-permanent': 2, 'card advantage': 6, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Skipping 'Misty Rainforest' (Index 31): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Polluted Delta' (Index 32): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Three Visits' (Index 33): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Selecting 'Generous Gift' (Index 34) contributes: ['removal']
-Remaining after selection: {'ramp': 0, 'removal': 5, 'protects-permanent': 2, 'card advantage': 6, 'sweeper': 3, 'recursion': 4, 'tutor': 5}
-Skipping 'Verdant Catacombs' (Index 35): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Marsh Flats' (Index 36): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Flooded Strand' (Index 37): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Scalding Tarn' (Index 38): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Bloodstained Mire' (Index 39): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Windswept Heath' (Index 40): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Wooded Foothills' (Index 41): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Arid Mesa' (Index 42): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Llanowar Elves' (Index 43): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Temple of the False God' (Index 44): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Urborg, Tomb of Yawgmoth' (Index 45): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Wayfarer's Bauble' (Index 46): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Chromatic Lantern' (Index 47): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Eternal Witness' (Index 48) contributes: ['card advantage', 'recursion']
-Remaining after selection: {'ramp': 0, 'removal': 5, 'protects-permanent': 2, 'card advantage': 5, 'sweeper': 3, 'recursion': 3, 'tutor': 5}
-Skipping 'Yavimaya, Cradle of Growth' (Index 49): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Esper Sentinel' (Index 50) contributes: ['card advantage']
-Remaining after selection: {'ramp': 0, 'removal': 5, 'protects-permanent': 2, 'card advantage': 4, 'sweeper': 3, 'recursion': 3, 'tutor': 5}
-Skipping 'Fabled Passage' (Index 51): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Selecting 'Boseiju, Who Endures' (Index 52) contributes: ['removal']
-Remaining after selection: {'ramp': 0, 'removal': 4, 'protects-permanent': 2, 'card advantage': 4, 'sweeper': 3, 'recursion': 3, 'tutor': 5}
-Skipping 'Stomping Ground' (Index 53): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Sakura-Tribe Elder' (Index 54): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; excluded by ['tutor-land']
-Skipping 'Cinder Glade' (Index 55): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Temple Garden' (Index 56): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Elvish Mystic' (Index 57): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Faithless Looting' (Index 58) contributes: ['card advantage']
-Remaining after selection: {'ramp': 0, 'removal': 4, 'protects-permanent': 2, 'card advantage': 3, 'sweeper': 3, 'recursion': 3, 'tutor': 5}
-Skipping 'Sacred Foundry' (Index 59): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Canopy Vista' (Index 60): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'City of Brass' (Index 61): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Garruk's Uprising' (Index 62) contributes: ['card advantage']
-Remaining after selection: {'ramp': 0, 'removal': 4, 'protects-permanent': 2, 'card advantage': 2, 'sweeper': 3, 'recursion': 3, 'tutor': 5}
-Selecting 'Vandalblast' (Index 63) contributes: ['removal', 'sweeper']
-Remaining after selection: {'ramp': 0, 'removal': 3, 'protects-permanent': 2, 'card advantage': 2, 'sweeper': 2, 'recursion': 3, 'tutor': 5}
-Skipping 'Cavern of Souls' (Index 64): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Clifftop Retreat' (Index 65): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Mana Confluence' (Index 66): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Skipping 'Ashnod's Altar' (Index 67): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Urza's Saga' (Index 68) contributes: ['tutor']
-Remaining after selection: {'ramp': 0, 'removal': 3, 'protects-permanent': 2, 'card advantage': 2, 'sweeper': 2, 'recursion': 3, 'tutor': 4}
-Skipping 'Lotus Petal' (Index 69): ramp already satisfied; removal not present; protects-permanent not present; card advantage not present; sweeper not present; recursion not present; tutor not present
-Selecting 'Herald's Horn' (Index 70) contributes: ['card advantage']
-Remaining after selection: {'ramp': 0, 'removal': 3, 'protects-permanent': 2, 'card advantage': 1, 'sweeper': 2, 'recursion': 3, 'tutor': 4}
-Selecting 'War Room' (Index 71) contributes: ['card advantage']
-Remaining after selection: {'ramp': 0, 'removal': 3, 'protects-permanent': 2, 'card advantage': 0, 'sweeper': 2, 'recursion': 3, 'tutor': 4}
-Skipping 'Battlefield Forge' (Index 72): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper not present; recursion not present; tutor not present
-Skipping 'Roaming Throne' (Index 73): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper not present; recursion not present; tutor not present
-Skipping 'Return of the Wildspeaker' (Index 74): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper not present; recursion not present; tutor not present
-Selecting 'Farewell' (Index 75) contributes: ['sweeper']
-Remaining after selection: {'ramp': 0, 'removal': 3, 'protects-permanent': 2, 'card advantage': 0, 'sweeper': 1, 'recursion': 3, 'tutor': 4}
-Selecting 'Austere Command' (Index 76) contributes: ['sweeper']
-Remaining after selection: {'ramp': 0, 'removal': 3, 'protects-permanent': 2, 'card advantage': 0, 'sweeper': 0, 'recursion': 3, 'tutor': 4}
-Selecting 'Abrade' (Index 77) contributes: ['removal']
-Remaining after selection: {'ramp': 0, 'removal': 2, 'protects-permanent': 2, 'card advantage': 0, 'sweeper': 0, 'recursion': 3, 'tutor': 4}
-Skipping 'Rootbound Crag' (Index 78): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Delighted Halfling' (Index 79): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Spectator Seating' (Index 80): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Talisman of Conviction' (Index 81): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Selecting 'Boros Charm' (Index 82) contributes: ['removal', 'protects-permanent']
-Remaining after selection: {'ramp': 0, 'removal': 1, 'protects-permanent': 1, 'card advantage': 0, 'sweeper': 0, 'recursion': 3, 'tutor': 4}
-Skipping 'Fyndhorn Elves' (Index 83): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Sunpetal Grove' (Index 84): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Nykthos, Shrine to Nyx' (Index 85): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Mana Crypt' (Index 86): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Beast Whisperer' (Index 87): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Reflecting Pool' (Index 88): ramp already satisfied; removal not present; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Selecting 'Lightning Bolt' (Index 89) contributes: ['removal']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 1, 'card advantage': 0, 'sweeper': 0, 'recursion': 3, 'tutor': 4}
-Skipping 'Ghostly Prison' (Index 90): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Spire Garden' (Index 91): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Ash Barrens' (Index 92): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; excluded by ['tutor-land']
-Skipping 'Tireless Provisioner' (Index 93): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Rhythm of the Wild' (Index 94): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Prismatic Vista' (Index 95): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; excluded by ['tutor-land']
-Skipping 'Wild Growth' (Index 96): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Bountiful Promenade' (Index 97): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Boros Signet' (Index 98): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Mosswort Bridge' (Index 99): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Impact Tremors' (Index 100): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Unclaimed Territory' (Index 101): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Gemstone Caverns' (Index 102): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Sensei's Divining Top' (Index 103): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Sylvan Library' (Index 104): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Thrill of Possibility' (Index 105): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Rockfall Vale' (Index 106): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Selecting 'Buried Ruin' (Index 107) contributes: ['recursion']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 1, 'card advantage': 0, 'sweeper': 0, 'recursion': 2, 'tutor': 4}
-Skipping 'Thran Dynamo' (Index 108): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Idol of Oblivion' (Index 109): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Rishkar's Expertise' (Index 110): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Karn's Bastion' (Index 111): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Secluded Courtyard' (Index 112): ramp already satisfied; removal already satisfied; protects-permanent not present; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Selecting 'Flawless Maneuver' (Index 113) contributes: ['protects-permanent']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 0, 'card advantage': 0, 'sweeper': 0, 'recursion': 2, 'tutor': 4}
-Skipping 'Command Beacon' (Index 114): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Reclamation Sage' (Index 115): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'The Great Henge' (Index 116): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Scute Swarm' (Index 117): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Doubling Season' (Index 118): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Big Score' (Index 119): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Ornithopter of Paradise' (Index 120): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Explore' (Index 121): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Everflowing Chalice' (Index 122): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Mithril Coat' (Index 123): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Mox Opal' (Index 124): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Akroma's Will' (Index 125): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Hardened Scales' (Index 126): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Decanter of Endless Water' (Index 127): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Etali, Primal Storm' (Index 128): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Harrow' (Index 129): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; excluded by ['tutor-land']
-Selecting 'Sun Titan' (Index 130) contributes: ['recursion']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 0, 'card advantage': 0, 'sweeper': 0, 'recursion': 1, 'tutor': 4}
-Skipping 'Storm-Kiln Artist' (Index 131): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Stroke of Midnight' (Index 132): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Mox Amber' (Index 133): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Sword of the Animist' (Index 134): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; excluded by ['tutor-land']
-Skipping 'Avenger of Zendikar' (Index 135): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Grand Abolisher' (Index 136): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Professional Face-Breaker' (Index 137): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Skyshroud Claim' (Index 138): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; excluded by ['tutor-land']
-Skipping 'Academy Manufactor' (Index 139): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Foundry Inspector' (Index 140): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Karplusan Forest' (Index 141): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Vanquisher's Banner' (Index 142): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Temple of Triumph' (Index 143): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Panharmonicon' (Index 144): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Harmonize' (Index 145): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Guardian Project' (Index 146): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Skipping 'Shamanic Revelation' (Index 147): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion not present; tutor not present
-Selecting 'Bala Ged Recovery // Bala Ged Sanctuary' (Index 148) contributes: ['recursion']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 0, 'card advantage': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 4}
-Skipping 'Nature's Claim' (Index 149): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Burnished Hart' (Index 150): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; excluded by ['tutor-land']
-Skipping 'Jungle Shrine' (Index 151): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Blackblade Reforged' (Index 152): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Exploration' (Index 153): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Phyrexian Altar' (Index 154): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Anointed Procession' (Index 155): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Selecting 'Finale of Devastation' (Index 156) contributes: ['tutor']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 0, 'card advantage': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 3}
-Skipping 'Whispersilk Cloak' (Index 157): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Ragavan, Nimble Pilferer' (Index 158): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Inspiring Call' (Index 159): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Brushland' (Index 160): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Jeweled Lotus' (Index 161): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Utopia Sprawl' (Index 162): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Basilisk Collar' (Index 163): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Dryad of the Ilysian Grove' (Index 164): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Dockside Extortionist' (Index 165): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Selecting 'Inventors' Fair' (Index 166) contributes: ['tutor']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 0, 'card advantage': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 2}
-Skipping 'Eiganjo, Seat of the Empire' (Index 167): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Darksteel Citadel' (Index 168): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Bloom Tender' (Index 169): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Jetmir's Garden' (Index 170): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Overgrown Farmland' (Index 171): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Azusa, Lost but Seeking' (Index 172): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Game Trail' (Index 173): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Kessig Wolf Run' (Index 174): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Mondrak, Glory Dominus' (Index 175): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Sundown Pass' (Index 176): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Fortified Village' (Index 177): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'The Ozolith' (Index 178): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Aetherflux Reservoir' (Index 179): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Urza's Incubator' (Index 180): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Geier Reach Sanitarium' (Index 181): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Shadowspear' (Index 182): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Scavenger Grounds' (Index 183): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Lotus Cobra' (Index 184): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Gruul Turf' (Index 185): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Toski, Bearer of Secrets' (Index 186): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Minas Tirith' (Index 187): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Sevinne's Reclamation' (Index 188): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Rampaging Baloths' (Index 189): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Parallel Lives' (Index 190): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Gilded Lotus' (Index 191): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Three Tree City' (Index 192): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Boros Garrison' (Index 193): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Helm of the Host' (Index 194): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Mana Geyser' (Index 195): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Temple of Abandon' (Index 196): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Furycalm Snarl' (Index 197): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Kami of Whispered Hopes' (Index 198): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Unexpected Windfall' (Index 199): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Jet Medallion' (Index 200): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Ramunap Excavator' (Index 201): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Tribute to the World Tree' (Index 202): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Guttersnipe' (Index 203): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Liquimetal Torque' (Index 204): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Goblin Bombardment' (Index 205): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Red Elemental Blast' (Index 206): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Unbreakable Formation' (Index 207): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Blind Obedience' (Index 208): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Krosan Grip' (Index 209): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Champion of Lambholt' (Index 210): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Hall of Heliod's Generosity' (Index 211): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Felidar Retreat' (Index 212): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Entish Restoration' (Index 213): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; excluded by ['tutor-land']
-Skipping 'Patchwork Banner' (Index 214): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Land Tax' (Index 215): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; excluded by ['tutor-land']
-Skipping 'Loran of the Third Path' (Index 216): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Goldspan Dragon' (Index 217): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Expedition Map' (Index 218): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; excluded by ['tutor-land']
-Skipping 'Evolution Sage' (Index 219): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Temple of Plenty' (Index 220): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Avacyn's Pilgrim' (Index 221): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Strionic Resonator' (Index 222): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Craterhoof Behemoth' (Index 223): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Selesnya Sanctuary' (Index 224): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Pyroblast' (Index 225): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Forgotten Ancient' (Index 226): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Spire of Industry' (Index 227): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Mystic Forge' (Index 228): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Anger' (Index 229): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Goblin Anarchomancer' (Index 230): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Silence' (Index 231): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Tamiyo's Safekeeping' (Index 232): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Hedron Archive' (Index 233): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Demolition Field' (Index 234): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; excluded by ['tutor-land']
-Skipping 'Maskwood Nexus' (Index 235): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Wood Elves' (Index 236): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; excluded by ['tutor-land']
-Skipping 'Mother of Runes' (Index 237): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Welcoming Vampire' (Index 238): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Ruby Medallion' (Index 239): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Taiga' (Index 240): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Psychosis Crawler' (Index 241): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Unnatural Growth' (Index 242): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Sungrass Prairie' (Index 243): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Ohran Frostfang' (Index 244): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Seething Song' (Index 245): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Maze of Ith' (Index 246): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Branching Evolution' (Index 247): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Plaza of Heroes' (Index 248): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Arbor Elf' (Index 249): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Plateau' (Index 250): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Savannah' (Index 251): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Sram, Senior Edificer' (Index 252): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'High Market' (Index 253): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Valakut Awakening // Valakut Stoneforge' (Index 254): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Overwhelming Stampede' (Index 255): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Kutzil, Malamet Exemplar' (Index 256): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Wrath of God' (Index 257): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Cursed Mirror' (Index 258): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Mirari's Wake' (Index 259): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Simian Spirit Guide' (Index 260): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Kenrith's Transformation' (Index 261): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Return to Nature' (Index 262): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Birgi, God of Storytelling // Harnfel, Horn of Bounty' (Index 263): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Ghalta, Primal Hunger' (Index 264): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Conduit of Worlds' (Index 265): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Mentor of the Meek' (Index 266): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Strip Mine' (Index 267): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Darksteel Mutation' (Index 268): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Ephemerate' (Index 269): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Terror of the Peaks' (Index 270): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Selecting 'Imperial Recruiter' (Index 271) contributes: ['tutor']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 0, 'card advantage': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 1}
-Skipping 'Basalt Monolith' (Index 272): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Skipping 'Worn Powerstone' (Index 273): ramp already satisfied; removal already satisfied; protects-permanent already satisfied; card advantage already satisfied; sweeper already satisfied; recursion already satisfied; tutor not present
-Selecting 'Chord of Calling' (Index 274) contributes: ['tutor']
-Remaining after selection: {'ramp': 0, 'removal': 0, 'protects-permanent': 0, 'card advantage': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
-All requirements satisfied; stopping deck build.
-Deck written to deck.xlsx
+Building deck with rules:
+  land: min=23 max=23
+  ramp: min=12 max=None
+  card advantage: min=10 max=None
+  removal: min=8 max=None
+  protects-permanent: min=5 max=None
+  sweeper: min=4 max=None
+  recursion: min=4 max=None
+  tutor: min=5 max=None
+Selecting 'Sol Ring' (Index 1) primary=['ramp'] extras=[]
+Tally now: {'land': 0, 'ramp': 1, 'card advantage': 0, 'removal': 0, 'protects-permanent': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Command Tower' (Index 2) primary=['land'] extras=[]
+Tally now: {'land': 1, 'ramp': 1, 'card advantage': 0, 'removal': 0, 'protects-permanent': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Arcane Signet' (Index 3) primary=['ramp'] extras=[]
+Tally now: {'land': 1, 'ramp': 2, 'card advantage': 0, 'removal': 0, 'protects-permanent': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Exotic Orchard' (Index 4) primary=['land'] extras=[]
+Tally now: {'land': 2, 'ramp': 2, 'card advantage': 0, 'removal': 0, 'protects-permanent': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Reliquary Tower' (Index 5) primary=['land'] extras=[]
+Tally now: {'land': 3, 'ramp': 2, 'card advantage': 0, 'removal': 0, 'protects-permanent': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Swords to Plowshares' (Index 6) primary=['removal'] extras=[]
+Tally now: {'land': 3, 'ramp': 2, 'card advantage': 0, 'removal': 1, 'protects-permanent': 0, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Swiftfoot Boots' (Index 7) primary=['protects-permanent'] extras=[]
+Tally now: {'land': 3, 'ramp': 2, 'card advantage': 0, 'removal': 1, 'protects-permanent': 1, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Lightning Greaves' (Index 8) primary=['protects-permanent'] extras=[]
+Tally now: {'land': 3, 'ramp': 2, 'card advantage': 0, 'removal': 1, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Path of Ancestry' (Index 9) primary=['land'] extras=[]
+Tally now: {'land': 4, 'ramp': 2, 'card advantage': 0, 'removal': 1, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Path to Exile' (Index 10) primary=['ramp', 'removal'] extras=[]
+Tally now: {'land': 4, 'ramp': 3, 'card advantage': 0, 'removal': 2, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Evolving Wilds' (Index 11) primary=['land'] extras=[]
+Tally now: {'land': 5, 'ramp': 3, 'card advantage': 0, 'removal': 2, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Fellwar Stone' (Index 12) primary=['ramp'] extras=[]
+Tally now: {'land': 5, 'ramp': 4, 'card advantage': 0, 'removal': 2, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Cultivate' (Index 13) primary=['ramp'] extras=[]
+Tally now: {'land': 5, 'ramp': 5, 'card advantage': 0, 'removal': 2, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Rogue's Passage' (Index 14) primary=['land'] extras=[]
+Tally now: {'land': 6, 'ramp': 5, 'card advantage': 0, 'removal': 2, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Myriad Landscape' (Index 15) primary=['land', 'ramp'] extras=[]
+Tally now: {'land': 7, 'ramp': 6, 'card advantage': 0, 'removal': 2, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Beast Within' (Index 16) primary=['removal'] extras=[]
+Tally now: {'land': 7, 'ramp': 6, 'card advantage': 0, 'removal': 3, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Thought Vessel' (Index 17) primary=['ramp'] extras=[]
+Tally now: {'land': 7, 'ramp': 7, 'card advantage': 0, 'removal': 3, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Mind Stone' (Index 18) primary=['ramp', 'card advantage'] extras=[]
+Tally now: {'land': 7, 'ramp': 8, 'card advantage': 1, 'removal': 3, 'protects-permanent': 2, 'sweeper': 0, 'recursion': 0, 'tutor': 0}
+Selecting 'Blasphemous Act' (Index 19) primary=['sweeper'] extras=[]
+Tally now: {'land': 7, 'ramp': 8, 'card advantage': 1, 'removal': 3, 'protects-permanent': 2, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Farseek' (Index 20) primary=['ramp'] extras=[]
+Tally now: {'land': 7, 'ramp': 9, 'card advantage': 1, 'removal': 3, 'protects-permanent': 2, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Rampant Growth' (Index 21) primary=['ramp'] extras=[]
+Tally now: {'land': 7, 'ramp': 10, 'card advantage': 1, 'removal': 3, 'protects-permanent': 2, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Terramorphic Expanse' (Index 22) primary=['land'] extras=[]
+Tally now: {'land': 8, 'ramp': 10, 'card advantage': 1, 'removal': 3, 'protects-permanent': 2, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Chaos Warp' (Index 23) primary=['removal'] extras=[]
+Tally now: {'land': 8, 'ramp': 10, 'card advantage': 1, 'removal': 4, 'protects-permanent': 2, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Nature's Lore' (Index 24) primary=['ramp'] extras=[]
+Tally now: {'land': 8, 'ramp': 11, 'card advantage': 1, 'removal': 4, 'protects-permanent': 2, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Commander's Sphere' (Index 25) primary=['ramp', 'card advantage'] extras=[]
+Tally now: {'land': 8, 'ramp': 12, 'card advantage': 2, 'removal': 4, 'protects-permanent': 2, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Skipping 'Kodama's Reach' (Index 26): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Selecting 'Heroic Intervention' (Index 27) primary=['protects-permanent'] extras=[]
+Tally now: {'land': 8, 'ramp': 12, 'card advantage': 2, 'removal': 4, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Solemn Simulacrum' (Index 28) primary=['card advantage'] extras=[]
+Tally now: {'land': 8, 'ramp': 12, 'card advantage': 3, 'removal': 4, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Skipping 'Birds of Paradise' (Index 29): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Skullclamp' (Index 30) primary=['card advantage'] extras=[]
+Tally now: {'land': 8, 'ramp': 12, 'card advantage': 4, 'removal': 4, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Skipping 'Three Visits' (Index 31): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Selecting 'Generous Gift' (Index 32) primary=['removal'] extras=[]
+Tally now: {'land': 8, 'ramp': 12, 'card advantage': 4, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Windswept Heath' (Index 33) primary=['land'] extras=[]
+Tally now: {'land': 9, 'ramp': 12, 'card advantage': 4, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Wooded Foothills' (Index 34) primary=['land'] extras=[]
+Tally now: {'land': 10, 'ramp': 12, 'card advantage': 4, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Selecting 'Arid Mesa' (Index 35) primary=['land'] extras=[]
+Tally now: {'land': 11, 'ramp': 12, 'card advantage': 4, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Skipping 'Llanowar Elves' (Index 36): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Temple of the False God' (Index 37) primary=['land'] extras=[]
+Tally now: {'land': 12, 'ramp': 12, 'card advantage': 4, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 0, 'tutor': 0}
+Skipping 'Wayfarer's Bauble' (Index 38): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Chromatic Lantern' (Index 39): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Eternal Witness' (Index 40) primary=['card advantage', 'recursion'] extras=[]
+Tally now: {'land': 12, 'ramp': 12, 'card advantage': 5, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Yavimaya, Cradle of Growth' (Index 41) primary=['land'] extras=[]
+Tally now: {'land': 13, 'ramp': 12, 'card advantage': 5, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Esper Sentinel' (Index 42) primary=['card advantage'] extras=[]
+Tally now: {'land': 13, 'ramp': 12, 'card advantage': 6, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Fabled Passage' (Index 43) primary=['land'] extras=[]
+Tally now: {'land': 14, 'ramp': 12, 'card advantage': 6, 'removal': 5, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Boseiju, Who Endures' (Index 44) primary=['land', 'removal'] extras=[]
+Tally now: {'land': 15, 'ramp': 12, 'card advantage': 6, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Stomping Ground' (Index 45) primary=['land'] extras=[]
+Tally now: {'land': 16, 'ramp': 12, 'card advantage': 6, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Skipping 'Sakura-Tribe Elder' (Index 46): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Selecting 'Cinder Glade' (Index 47) primary=['land'] extras=[]
+Tally now: {'land': 17, 'ramp': 12, 'card advantage': 6, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Temple Garden' (Index 48) primary=['land'] extras=[]
+Tally now: {'land': 18, 'ramp': 12, 'card advantage': 6, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Skipping 'Elvish Mystic' (Index 49): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Faithless Looting' (Index 50) primary=['card advantage'] extras=[]
+Tally now: {'land': 18, 'ramp': 12, 'card advantage': 7, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Sacred Foundry' (Index 51) primary=['land'] extras=[]
+Tally now: {'land': 19, 'ramp': 12, 'card advantage': 7, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Canopy Vista' (Index 52) primary=['land'] extras=[]
+Tally now: {'land': 20, 'ramp': 12, 'card advantage': 7, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'City of Brass' (Index 53) primary=['land'] extras=[]
+Tally now: {'land': 21, 'ramp': 12, 'card advantage': 7, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Garruk's Uprising' (Index 54) primary=['card advantage'] extras=[]
+Tally now: {'land': 21, 'ramp': 12, 'card advantage': 8, 'removal': 6, 'protects-permanent': 3, 'sweeper': 1, 'recursion': 1, 'tutor': 0}
+Selecting 'Vandalblast' (Index 55) primary=['removal', 'sweeper'] extras=[]
+Tally now: {'land': 21, 'ramp': 12, 'card advantage': 8, 'removal': 7, 'protects-permanent': 3, 'sweeper': 2, 'recursion': 1, 'tutor': 0}
+Selecting 'Cavern of Souls' (Index 56) primary=['land'] extras=[]
+Tally now: {'land': 22, 'ramp': 12, 'card advantage': 8, 'removal': 7, 'protects-permanent': 3, 'sweeper': 2, 'recursion': 1, 'tutor': 0}
+Selecting 'Clifftop Retreat' (Index 57) primary=['land'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 8, 'removal': 7, 'protects-permanent': 3, 'sweeper': 2, 'recursion': 1, 'tutor': 0}
+Skipping 'Mana Confluence' (Index 58): has land but at max (23/23)
+Skipping 'Ashnod's Altar' (Index 59): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Urza's Saga' (Index 60): has land but at max (23/23)
+Skipping 'Lotus Petal' (Index 61): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Herald's Horn' (Index 62) primary=['card advantage'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 9, 'removal': 7, 'protects-permanent': 3, 'sweeper': 2, 'recursion': 1, 'tutor': 0}
+Skipping 'War Room' (Index 63): has land but at max (23/23)
+Skipping 'Battlefield Forge' (Index 64): has land but at max (23/23)
+Skipping 'Roaming Throne' (Index 65): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Return of the Wildspeaker' (Index 66) primary=['card advantage'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 7, 'protects-permanent': 3, 'sweeper': 2, 'recursion': 1, 'tutor': 0}
+Selecting 'Farewell' (Index 67) primary=['sweeper'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 7, 'protects-permanent': 3, 'sweeper': 3, 'recursion': 1, 'tutor': 0}
+Selecting 'Austere Command' (Index 68) primary=['sweeper'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 7, 'protects-permanent': 3, 'sweeper': 4, 'recursion': 1, 'tutor': 0}
+Selecting 'Abrade' (Index 69) primary=['removal'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 3, 'sweeper': 4, 'recursion': 1, 'tutor': 0}
+Skipping 'Rootbound Crag' (Index 70): has land but at max (23/23)
+Skipping 'Delighted Halfling' (Index 71): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Spectator Seating' (Index 72): has land but at max (23/23)
+Skipping 'Talisman of Conviction' (Index 73): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Boros Charm' (Index 74) primary=['protects-permanent'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 4, 'sweeper': 4, 'recursion': 1, 'tutor': 0}
+Skipping 'Fyndhorn Elves' (Index 75): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sunpetal Grove' (Index 76): has land but at max (23/23)
+Skipping 'Nykthos, Shrine to Nyx' (Index 77): has land but at max (23/23)
+Skipping 'Mana Crypt' (Index 78): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Beast Whisperer' (Index 79): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Reflecting Pool' (Index 80): has land but at max (23/23)
+Skipping 'Lightning Bolt' (Index 81): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Ghostly Prison' (Index 82): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Spire Garden' (Index 83): has land but at max (23/23)
+Skipping 'Ash Barrens' (Index 84): has land but at max (23/23)
+Skipping 'Tireless Provisioner' (Index 85): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Rhythm of the Wild' (Index 86): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Prismatic Vista' (Index 87): has land but at max (23/23)
+Skipping 'Wild Growth' (Index 88): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Bountiful Promenade' (Index 89): has land but at max (23/23)
+Skipping 'Boros Signet' (Index 90): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Mosswort Bridge' (Index 91): has land but at max (23/23)
+Skipping 'Impact Tremors' (Index 92): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Unclaimed Territory' (Index 93): has land but at max (23/23)
+Skipping 'Gemstone Caverns' (Index 94): has land but at max (23/23)
+Skipping 'Sensei's Divining Top' (Index 95): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sylvan Library' (Index 96): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Thrill of Possibility' (Index 97): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Rockfall Vale' (Index 98): has land but at max (23/23)
+Skipping 'Buried Ruin' (Index 99): has land but at max (23/23)
+Skipping 'Thran Dynamo' (Index 100): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Idol of Oblivion' (Index 101): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Rishkar's Expertise' (Index 102): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Karn's Bastion' (Index 103): has land but at max (23/23)
+Skipping 'Secluded Courtyard' (Index 104): has land but at max (23/23)
+Selecting 'Flawless Maneuver' (Index 105) primary=['protects-permanent'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 1, 'tutor': 0}
+Skipping 'Command Beacon' (Index 106): has land but at max (23/23)
+Skipping 'Reclamation Sage' (Index 107): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'The Great Henge' (Index 108): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Scute Swarm' (Index 109): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Doubling Season' (Index 110): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Big Score' (Index 111): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Ornithopter of Paradise' (Index 112): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Explore' (Index 113): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Everflowing Chalice' (Index 114): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Mithril Coat' (Index 115): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Mox Opal' (Index 116): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Akroma's Will' (Index 117): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Hardened Scales' (Index 118): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Decanter of Endless Water' (Index 119): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Etali, Primal Storm' (Index 120): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Harrow' (Index 121): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Selecting 'Sun Titan' (Index 122) primary=['recursion'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 2, 'tutor': 0}
+Skipping 'Storm-Kiln Artist' (Index 123): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Stroke of Midnight' (Index 124): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Mox Amber' (Index 125): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sword of the Animist' (Index 126): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Avenger of Zendikar' (Index 127): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Grand Abolisher' (Index 128): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Professional Face-Breaker' (Index 129): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Skyshroud Claim' (Index 130): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Academy Manufactor' (Index 131): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Foundry Inspector' (Index 132): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Karplusan Forest' (Index 133): has land but at max (23/23)
+Skipping 'Vanquisher's Banner' (Index 134): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Temple of Triumph' (Index 135): has land but at max (23/23)
+Skipping 'Panharmonicon' (Index 136): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Harmonize' (Index 137): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Guardian Project' (Index 138): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Shamanic Revelation' (Index 139): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Bala Ged Recovery // Bala Ged Sanctuary' (Index 140): has land but at max (23/23)
+Skipping 'Nature's Claim' (Index 141): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Burnished Hart' (Index 142): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Jungle Shrine' (Index 143): has land but at max (23/23)
+Skipping 'Blackblade Reforged' (Index 144): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Exploration' (Index 145): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Phyrexian Altar' (Index 146): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Anointed Procession' (Index 147): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Finale of Devastation' (Index 148) primary=['recursion', 'tutor'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 3, 'tutor': 1}
+Skipping 'Whispersilk Cloak' (Index 149): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Ragavan, Nimble Pilferer' (Index 150): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Inspiring Call' (Index 151): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Brushland' (Index 152): has land but at max (23/23)
+Skipping 'Jeweled Lotus' (Index 153): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Utopia Sprawl' (Index 154): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Basilisk Collar' (Index 155): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Dryad of the Ilysian Grove' (Index 156): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Dockside Extortionist' (Index 157): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Inventors' Fair' (Index 158): has land but at max (23/23)
+Skipping 'Eiganjo, Seat of the Empire' (Index 159): has land but at max (23/23)
+Skipping 'Darksteel Citadel' (Index 160): has land but at max (23/23)
+Skipping 'Bloom Tender' (Index 161): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Jetmir's Garden' (Index 162): has land but at max (23/23)
+Skipping 'Overgrown Farmland' (Index 163): has land but at max (23/23)
+Skipping 'Azusa, Lost but Seeking' (Index 164): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Game Trail' (Index 165): has land but at max (23/23)
+Skipping 'Kessig Wolf Run' (Index 166): has land but at max (23/23)
+Skipping 'Mondrak, Glory Dominus' (Index 167): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sundown Pass' (Index 168): has land but at max (23/23)
+Skipping 'Fortified Village' (Index 169): has land but at max (23/23)
+Skipping 'The Ozolith' (Index 170): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Aetherflux Reservoir' (Index 171): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Urza's Incubator' (Index 172): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Geier Reach Sanitarium' (Index 173): has land but at max (23/23)
+Skipping 'Shadowspear' (Index 174): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Scavenger Grounds' (Index 175): has land but at max (23/23)
+Skipping 'Lotus Cobra' (Index 176): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Gruul Turf' (Index 177): has land but at max (23/23)
+Skipping 'Toski, Bearer of Secrets' (Index 178): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Minas Tirith' (Index 179): has land but at max (23/23)
+Selecting 'Sevinne's Reclamation' (Index 180) primary=['recursion'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 4, 'tutor': 1}
+Skipping 'Rampaging Baloths' (Index 181): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Parallel Lives' (Index 182): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Gilded Lotus' (Index 183): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Three Tree City' (Index 184): has land but at max (23/23)
+Skipping 'Boros Garrison' (Index 185): has land but at max (23/23)
+Skipping 'Helm of the Host' (Index 186): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Mana Geyser' (Index 187): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Temple of Abandon' (Index 188): has land but at max (23/23)
+Skipping 'Furycalm Snarl' (Index 189): has land but at max (23/23)
+Skipping 'Kami of Whispered Hopes' (Index 190): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Unexpected Windfall' (Index 191): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Jet Medallion' (Index 192): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Ramunap Excavator' (Index 193): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion not needed (4/4); tutor missing
+Skipping 'Tribute to the World Tree' (Index 194): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Guttersnipe' (Index 195): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Liquimetal Torque' (Index 196): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Goblin Bombardment' (Index 197): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Red Elemental Blast' (Index 198): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Unbreakable Formation' (Index 199): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Blind Obedience' (Index 200): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Krosan Grip' (Index 201): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Champion of Lambholt' (Index 202): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Hall of Heliod's Generosity' (Index 203): has land but at max (23/23)
+Skipping 'Felidar Retreat' (Index 204): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Entish Restoration' (Index 205): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Patchwork Banner' (Index 206): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Land Tax' (Index 207): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Loran of the Third Path' (Index 208): land missing; ramp missing; card advantage not needed (10/10); removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Goldspan Dragon' (Index 209): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Expedition Map' (Index 210): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Evolution Sage' (Index 211): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Temple of Plenty' (Index 212): has land but at max (23/23)
+Skipping 'Avacyn's Pilgrim' (Index 213): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Strionic Resonator' (Index 214): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Craterhoof Behemoth' (Index 215): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Selesnya Sanctuary' (Index 216): has land but at max (23/23)
+Skipping 'Pyroblast' (Index 217): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Forgotten Ancient' (Index 218): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Spire of Industry' (Index 219): has land but at max (23/23)
+Skipping 'Mystic Forge' (Index 220): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Anger' (Index 221): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Goblin Anarchomancer' (Index 222): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Silence' (Index 223): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Tamiyo's Safekeeping' (Index 224): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Hedron Archive' (Index 225): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Demolition Field' (Index 226): has land but at max (23/23)
+Skipping 'Maskwood Nexus' (Index 227): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Wood Elves' (Index 228): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Mother of Runes' (Index 229): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Welcoming Vampire' (Index 230): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Ruby Medallion' (Index 231): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Taiga' (Index 232): has land but at max (23/23)
+Skipping 'Psychosis Crawler' (Index 233): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Unnatural Growth' (Index 234): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sungrass Prairie' (Index 235): has land but at max (23/23)
+Skipping 'Ohran Frostfang' (Index 236): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Seething Song' (Index 237): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Maze of Ith' (Index 238): has land but at max (23/23)
+Skipping 'Branching Evolution' (Index 239): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Plaza of Heroes' (Index 240): has land but at max (23/23)
+Skipping 'Arbor Elf' (Index 241): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Plateau' (Index 242): has land but at max (23/23)
+Skipping 'Savannah' (Index 243): has land but at max (23/23)
+Skipping 'Sram, Senior Edificer' (Index 244): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'High Market' (Index 245): has land but at max (23/23)
+Skipping 'Valakut Awakening // Valakut Stoneforge' (Index 246): has land but at max (23/23)
+Skipping 'Overwhelming Stampede' (Index 247): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Kutzil, Malamet Exemplar' (Index 248): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Wrath of God' (Index 249): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper not needed (4/4); recursion missing; tutor missing
+Skipping 'Cursed Mirror' (Index 250): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Mirari's Wake' (Index 251): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Simian Spirit Guide' (Index 252): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Kenrith's Transformation' (Index 253): land missing; ramp missing; card advantage not needed (10/10); removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Return to Nature' (Index 254): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Birgi, God of Storytelling // Harnfel, Horn of Bounty' (Index 255): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Ghalta, Primal Hunger' (Index 256): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Conduit of Worlds' (Index 257): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion not needed (4/4); tutor missing
+Skipping 'Mentor of the Meek' (Index 258): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Strip Mine' (Index 259): has land but at max (23/23)
+Skipping 'Darksteel Mutation' (Index 260): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Ephemerate' (Index 261): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Terror of the Peaks' (Index 262): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Imperial Recruiter' (Index 263) primary=['tutor'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 4, 'tutor': 2}
+Skipping 'Basalt Monolith' (Index 264): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Worn Powerstone' (Index 265): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Chord of Calling' (Index 266) primary=['tutor'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 4, 'tutor': 3}
+Skipping 'Veil of Summer' (Index 267): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Selvala, Heart of the Wilds' (Index 268): land missing; ramp not needed (12/12); card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Rugged Prairie' (Index 269): has land but at max (23/23)
+Skipping 'Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun' (Index 270): has land but at max (23/23)
+Skipping 'Great Furnace' (Index 271): has land but at max (23/23)
+Skipping 'Mossfire Valley' (Index 272): has land but at max (23/23)
+Skipping 'Altar of Dementia' (Index 273): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Adeline, Resplendent Cathar' (Index 274): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Green Sun's Zenith' (Index 275) primary=['tutor'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 4, 'tutor': 4}
+Skipping 'Forbidden Orchard' (Index 276): has land but at max (23/23)
+Skipping 'Unwinding Clock' (Index 277): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Thespian's Stage' (Index 278): has land but at max (23/23)
+Skipping 'Knight of the White Orchid' (Index 279): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing
+Skipping 'Cankerbloom' (Index 280): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Beastmaster Ascension' (Index 281): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sanctum Weaver' (Index 282): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Treasure Vault' (Index 283): has land but at max (23/23)
+Skipping 'Oracle of Mul Daya' (Index 284): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Opal Palace' (Index 285): has land but at max (23/23)
+Skipping 'Faeburrow Elder' (Index 286): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sapphire Medallion' (Index 287): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Realmwalker' (Index 288): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Cathars' Crusade' (Index 289): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Tibalt's Trickery' (Index 290): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Noxious Revival' (Index 291): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion not needed (4/4); tutor missing
+Skipping 'Gruul Signet' (Index 292): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Warstorm Surge' (Index 293): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Fire Diamond' (Index 294): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Chandra's Ignition' (Index 295): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper not needed (4/4); recursion missing; tutor missing
+Skipping 'Elemental Bond' (Index 296): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Walking Ballista' (Index 297): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Crucible of Worlds' (Index 298): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion not needed (4/4); tutor missing
+Skipping 'Archivist of Oghma' (Index 299): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Soul Warden' (Index 300): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Bonders' Enclave' (Index 301): has land but at max (23/23)
+Skipping 'All That Glitters' (Index 302): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Krosan Verge' (Index 303): has land but at max (23/23)
+Skipping 'Emergence Zone' (Index 304): has land but at max (23/23)
+Skipping 'Blighted Woodland' (Index 305): has land but at max (23/23)
+Skipping 'Commander's Plate' (Index 306): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Rising of the Day' (Index 307): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Access Tunnel' (Index 308): has land but at max (23/23)
+Skipping 'Wheel of Fortune' (Index 309): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sword of Feast and Famine' (Index 310): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Castle Ardenvale' (Index 311): has land but at max (23/23)
+Skipping 'Ozolith, the Shattered Spire' (Index 312): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Intangible Virtue' (Index 313): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Second Harvest' (Index 314): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Tireless Tracker' (Index 315): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Elesh Norn, Grand Cenobite' (Index 316): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper not needed (4/4); recursion missing; tutor missing
+Skipping 'Ancient Den' (Index 317): has land but at max (23/23)
+Skipping 'Purphoros, God of the Forge' (Index 318): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Talisman of Impulse' (Index 319): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Dualcaster Mage' (Index 320): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Greater Good' (Index 321): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Windbrisk Heights' (Index 322): has land but at max (23/23)
+Skipping 'Shared Animosity' (Index 323): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Castle Garenbrig' (Index 324): has land but at max (23/23)
+Skipping 'Etali, Primal Conqueror // Etali, Primal Sickness' (Index 325): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Dispatch' (Index 326): land missing; ramp missing; card advantage missing; removal not needed (8/8); protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Ghost Quarter' (Index 327): has land but at max (23/23)
+Skipping 'Jaheira, Friend of the Forest' (Index 328): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Snakeskin Veil' (Index 329): land missing; ramp missing; card advantage missing; removal missing; protects-permanent not needed (5/5); sweeper missing; recursion missing; tutor missing
+Skipping 'Authority of the Consuls' (Index 330): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Isochron Scepter' (Index 331): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Conjurer's Closet' (Index 332): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Chain Reaction' (Index 333): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper not needed (4/4); recursion missing; tutor missing
+Skipping 'Rancor' (Index 334): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion not needed (4/4); tutor missing
+Skipping 'Demand Answers' (Index 335): land missing; ramp missing; card advantage not needed (10/10); removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Sculpting Steel' (Index 336): land missing; ramp missing; card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Skipping 'Incubation Druid' (Index 337): land missing; ramp not needed (12/12); card advantage missing; removal missing; protects-permanent missing; sweeper missing; recursion missing; tutor missing
+Selecting 'Eladamri's Call' (Index 338) primary=['tutor'] extras=[]
+Tally now: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
+All minimums satisfied; stopping deck build.
+Final tally: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
+Deck with min/max written to deck.xlsx
