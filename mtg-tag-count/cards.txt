@@ -28,21 +28,13 @@ Heroic Intervention
 Solemn Simulacrum
 Birds of Paradise
 Skullclamp
-Misty Rainforest
-Polluted Delta
 Three Visits
 Generous Gift
-Verdant Catacombs
-Marsh Flats
-Flooded Strand
-Scalding Tarn
-Bloodstained Mire
 Windswept Heath
 Wooded Foothills
 Arid Mesa
 Llanowar Elves
 Temple of the False God
-Urborg, Tomb of Yawgmoth
 Wayfarer's Bauble
 Chromatic Lantern
 Eternal Witness
