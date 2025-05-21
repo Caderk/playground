@@ -8,7 +8,8 @@ It fetches each card's taggings via Scryfall Tagger's GraphQL endpoint (with anc
 and its type line via the Scryfall API, using a local cache to avoid refetching.
 Then it:
   1. Selects cards to satisfy minimum counts and not exceed maximum counts (building a deck), logging each skip or selection with clear reasons.
-     It also tallies additional tag/type counts up to their max constraints for every selected card.
+     It tallies both primary (needed to meet minimums) and extras (up to maximums) per card.
+     It also logs a special message if a card has none of the target tags/types.
   2. Writes a single Excel file containing the selected cards,
      with TRUE values in target-tag/type columns colored green, FALSE colored red,
      and cumulative frequencies of each tag to the right.
@@ -112,7 +113,8 @@ def build_deck(df, rules, exclude_map):
     """
     Select cards to satisfy min_counts and respect max_counts.
     Logs each skip with precise reasons (missing, not needed, at max, excluded).
-    Also tallies additional counts up to max for selected cards.
+    Also tallies both primary and extras per card, up to max.
+    Logs a special message when a card has none of the target tags/types.
     rules: dict of {key: {'min':int,'max':int or None}}
     """
     tally = {k: 0 for k in rules}
@@ -124,6 +126,10 @@ def build_deck(df, rules, exclude_map):
 
     for idx, row in df.iterrows():
         card = row["card"]
+        # Check for no relevant tags/types
+        if not any(row.get(key, False) for key in rules):
+            print(f"Skipping '{card}' (Index {idx}): no relevant tags/types")
+            continue
         # Skip if any tag/type would exceed max
         skip_reasons = []
         for key, rule in rules.items():
@@ -149,7 +155,7 @@ def build_deck(df, rules, exclude_map):
                     primary.append(key)
 
         if not primary:
-            # Log why skipped
+            # Log skip reasons
             reasons = []
             for key, rule in rules.items():
                 has_tag = row.get(key, False)
@@ -160,8 +166,7 @@ def build_deck(df, rules, exclude_map):
             print(f"Skipping '{card}' (Index {idx}): {'; '.join(reasons)}")
             continue
 
-        # Select this card
-        # Also tally any extra tags/types (up to max)
+        # Identify extras (up to max)
         extras = []
         for key, rule in rules.items():
             if key in primary:
