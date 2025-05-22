@@ -1,11 +1,1 @@
-Building deck indices with rules:
-  land: min=23 max=23
-  ramp: min=12 max=None
-  card advantage: min=10 max=None
-  removal: min=8 max=None
-  protects-permanent: min=5 max=None
-  sweeper: min=4 max=None
-  recursion: min=4 max=None
-  tutor: min=5 max=None
-Final tally: {'land': 23, 'ramp': 12, 'card advantage': 10, 'removal': 8, 'protects-permanent': 5, 'sweeper': 4, 'recursion': 4, 'tutor': 5}
-Excel written to deck.xlsx
+Excel with images written to deck.xlsx

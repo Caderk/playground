@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-MTG Tag, Type & Deck Export → Single Excel File with Selection & Excel-Based Cumulative Counts
+MTG Tag, Type & Deck Export → Single Excel File with Selection, Images & Excel-Based Cumulative Counts
 
 This script takes lists of MTG card names, target tags, target types,
 and a JSON file specifying minimum and optional maximum counts for tags and types (with optional exclusions).
 It fetches each card's taggings via Scryfall Tagger's GraphQL endpoint (with ancestors)
-and its type line via the Scryfall API, using a local cache to avoid refetching.
+and its type line & image URIs via the Scryfall API, using a local cache to avoid refetching.
 Then it:
-  1. Evaluates every card, marking whether it's Selected (meets deck rules) and flags cards with NoRelevantTags.
-  2. Writes a single Excel file containing all cards, with TRUE values in target-tag/type columns colored green, FALSE red.
-     It adds dynamic Excel COUNTIFS formulas to compute cumulative counts for each tag column, only for selected cards.
+  1. Evaluates every card, marking whether it's Selected and flags cards with NoRelevantTags.
+  2. Adds an empty "Image" column, then inserts card images into that column cell (sized larger), keeping names separate.
+  3. Applies boolean coloring and dynamic COUNTIFS formulas for cumulative selected counts per tag.
 
 Usage:
     python mtg_tagger_to_excel.py \
@@ -20,6 +20,7 @@ Requirements:
     pip install requests beautifulsoup4 pandas openpyxl
 """
 import argparse
+import io
 import time
 import json
 import requests
@@ -27,6 +28,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import shelve
 
+from openpyxl import load_workbook
+from openpyxl.drawing.image import Image as XLImage
 from openpyxl.styles import PatternFill
 from openpyxl.formatting.rule import CellIsRule
 from openpyxl.utils import get_column_letter
@@ -41,18 +44,14 @@ db = shelve.open(CACHE_PATH)
 session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT})
 
-# GraphQL query for tags
+# GraphQL to fetch taggings
 GRAPHQL_QUERY = """
 query FetchCard($set: String!, $number: String!) {
   card: cardBySet(set: $set, number: $number) {
     set
     collectorNumber
     taggings(moderatorView: false) {
-      tag {
-        name
-        status
-        ancestorTags { name status }
-      }
+      tag { name status ancestorTags { name status } }
     }
   }
 }
@@ -60,7 +59,6 @@ query FetchCard($set: String!, $number: String!) {
 
 
 def get_card_info(card_name):
-    """Fetch card data from Scryfall API, with caching."""
     key = f"info:{card_name.lower()}"
     if key in db:
         return db[key]
@@ -74,21 +72,16 @@ def get_card_info(card_name):
 
 
 def get_tagger_tags(set_code, collector_number):
-    """Fetch GOOD_STANDING tags (including ancestors) via GraphQL, with caching."""
     key = f"tags:{set_code.lower()}:{collector_number}"
     if key in db:
         return set(db[key])
-    # fetch CSRF token
     resp = session.get(
         f"https://tagger.scryfall.com/card/{set_code}/{collector_number}"
     )
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
-    token_meta = soup.find("meta", {"name": "csrf-token"})
-    if not token_meta:
-        raise RuntimeError("CSRF token not found")
-    csrf = token_meta["content"]
-    headers = {"X-CSRF-Token": csrf, "Content-Type": "application/json"}
+    token = soup.find("meta", {"name": "csrf-token"})["content"]
+    headers = {"X-CSRF-Token": token, "Content-Type": "application/json"}
     payload = {
         "query": GRAPHQL_QUERY,
         "variables": {"set": set_code, "number": collector_number},
@@ -98,35 +91,39 @@ def get_tagger_tags(set_code, collector_number):
     data = r.json().get("data", {}).get("card", {}) or {}
     tags = set()
     for t in data.get("taggings", []):
-        tag = t.get("tag", {})
-        if tag.get("status") != "GOOD_STANDING":
+        tg = t.get("tag", {})
+        if tg.get("status") != "GOOD_STANDING":
             continue
-        name = tag.get("name", "").lower().strip()
-        if name:
-            tags.add(name)
-        for anc in tag.get("ancestorTags", []):
+        nm = tg.get("name", "").lower().strip()
+        if nm:
+            tags.add(nm)
+        for anc in tg.get("ancestorTags", []):
             if anc.get("status") == "GOOD_STANDING":
-                anc_name = anc.get("name", "").lower().strip()
-                if anc_name:
-                    tags.add(anc_name)
+                an = anc.get("name", "").lower().strip()
+                if an:
+                    tags.add(an)
     db[key] = list(tags)
     return tags
 
 
+def fetch_image_bytes(info):
+    if info.get("image_uris"):
+        url = info["image_uris"].get("normal")
+    elif info.get("card_faces"):
+        url = info["card_faces"][0].get("image_uris", {}).get("normal")
+    else:
+        return None
+    r = session.get(url)
+    r.raise_for_status()
+    return io.BytesIO(r.content)
+
+
 def build_deck_indices(df, rules, exclude_map):
-    """
-    Determine which cards to select based on min/max rules, returning indices.
-    """
     tally = {k: 0 for k in rules}
     selected = []
-    print("Building deck indices with rules:")
-    for k, v in rules.items():
-        print(f"  {k}: min={v['min']} max={v.get('max')}")
     for idx, row in df.iterrows():
-        # skip if no relevant tags/types
         if not any(row.get(k, False) for k in rules):
             continue
-        # skip if any max would be exceeded
         if any(
             rules[k].get("max") is not None
             and row.get(k, False)
@@ -134,7 +131,6 @@ def build_deck_indices(df, rules, exclude_map):
             for k in rules
         ):
             continue
-        # find needed contributions
         primary = [
             k
             for k in rules
@@ -144,12 +140,9 @@ def build_deck_indices(df, rules, exclude_map):
         ]
         if not primary:
             continue
-        # select card
         selected.append(idx)
-        # tally primary
         for k in primary:
             tally[k] += 1
-        # tally extras up to max
         extras = [
             k
             for k in rules
@@ -160,10 +153,8 @@ def build_deck_indices(df, rules, exclude_map):
         ]
         for k in extras:
             tally[k] += 1
-        # check completion
         if all(tally[k] >= rules[k]["min"] for k in rules):
             break
-    print("Final tally:", tally)
     return selected
 
 
@@ -177,16 +168,14 @@ def main():
     parser.add_argument("--delay", type=float, default=0.1)
     args = parser.parse_args()
 
-    # Read inputs
     with open(args.cards) as f:
         cards = [l.strip() for l in f if l.strip()]
     with open(args.tags) as f:
-        target_tags = [l.strip().lower() for l in f if l.strip()]
+        t_tags = [l.strip().lower() for l in f if l.strip()]
     with open(args.types) as f:
-        target_types = [l.strip().lower() for l in f if l.strip()]
+        t_types = [l.strip().lower() for l in f if l.strip()]
     counts = json.load(open(args.counts))
 
-    # Build rules and exclude_map
     rules = {}
     for k, v in counts.get("tags", {}).items():
         if isinstance(v, dict):
@@ -198,71 +187,94 @@ def main():
             rules[k] = {"min": v.get("min", 0), "max": v.get("max")}
         else:
             rules[k] = {"min": v, "max": None}
-    exclude_map = {k: [e for e in v] for k, v in counts.get("exclude", {}).items()}
+    exclude_map = {k: list(v) for k, v in counts.get("exclude", {}).items()}
 
-    # Fetch card data
     rows = []
+    imgs = []
     for card in cards:
-        info_key = f"info:{card.lower()}"
-        cached_info = info_key in db
         info = get_card_info(card)
-        set_code = info["set"]
-        num = info["collector_number"]
-        tags_key = f"tags:{set_code.lower()}:{num}"
-        cached_tags = tags_key in db
-        tags = get_tagger_tags(set_code, num)
+        tags = get_tagger_tags(info["set"], info["collector_number"])
         types = set(info.get("type_line", "").lower().replace("—", "").split())
-        row = {"card": card}
-        for t in target_tags:
+        row = {"Image": "", "Card": card}
+        for t in t_tags:
             row[t] = t in tags
-        for t in target_types:
+        for t in t_types:
             row[t] = t in types
         rows.append(row)
-        if not (cached_info and cached_tags):
-            time.sleep(args.delay)
+        imgs.append(fetch_image_bytes(info))
+        time.sleep(args.delay)
 
     df = pd.DataFrame(rows)
     df.index = range(1, len(df) + 1)
     df.index.name = "Index"
 
-    # Mark selections
     selected_idxs = build_deck_indices(df, rules, exclude_map)
     df["Selected"] = df.index.isin(selected_idxs)
-    df["NoRelevant"] = ~df[[*target_tags, *target_types]].any(axis=1)
+    df["NoRelevant"] = ~df[[*t_tags, *t_types]].any(axis=1)
 
-    # Write Excel
-    with pd.ExcelWriter(args.output, engine="openpyxl") as writer:
-        df.to_excel(writer, sheet_name="Deck", index_label="Index")
-        ws = writer.sheets["Deck"]
-        # coloring
-        green = PatternFill(fill_type="solid", fgColor="C6EFCE")
-        red = PatternFill(fill_type="solid", fgColor="FFC7CE")
-        bool_cols = target_tags + target_types + ["Selected", "NoRelevant"]
-        for col in bool_cols:
-            idx = df.columns.get_loc(col) + 2
-            let = get_column_letter(idx)
-            rng = f"{let}2:{let}{len(df)+1}"
-            ws.conditional_formatting.add(
-                rng, CellIsRule(operator="equal", formula=["TRUE"], fill=green)
-            )
-            ws.conditional_formatting.add(
-                rng, CellIsRule(operator="equal", formula=["FALSE"], fill=red)
-            )
-        # dynamic COUNTIFS formulas for selected only
-        sel_col = get_column_letter(df.columns.get_loc("Selected") + 2)
-        for i, tag in enumerate(target_tags):
-            colp = len(df.columns) + 2 + i
-            letp = get_column_letter(colp)
-            ws.cell(row=1, column=colp, value=f"{tag}_cum")
-            orig = get_column_letter(df.columns.get_loc(tag) + 2)
-            for r in range(2, len(df) + 2):
-                ws.cell(
-                    row=r,
-                    column=colp,
-                    value=f"=COUNTIFS(${sel_col}$2:${sel_col}${r},TRUE,${orig}$2:${orig}${r},TRUE)",
-                )
+    output = args.output
+    df.to_excel(output, sheet_name="Deck", index_label="Index")
+    wb = load_workbook(output)
+    ws = wb["Deck"]
 
-    print(f"Excel written to {args.output}")
+    # Anchor images to 'Image' column
+    img_col_idx = df.columns.get_loc("Image") + 2
+    img_col_letter = get_column_letter(img_col_idx)
+    ws.column_dimensions[img_col_letter].width = 20
+
+    for row_idx, img_bytes in enumerate(imgs, start=2):
+        if img_bytes:
+            img = XLImage(img_bytes)
+            img.width = 160
+            img.height = 224
+            anchor_cell = f"{img_col_letter}{row_idx}"
+            img.anchor = anchor_cell
+            ws.add_image(img)
+            ws.row_dimensions[row_idx].height = 180
+
+    green = PatternFill("solid", fgColor="C6EFCE")
+    red = PatternFill("solid", fgColor="FFC7CE")
+    bool_cols = t_tags + t_types + ["Selected", "NoRelevant"]
+    for col in bool_cols:
+        col_idx = df.columns.get_loc(col) + 2
+        letter = get_column_letter(col_idx)
+        rng = f"{letter}2:{letter}{len(df) + 1}"
+        ws.conditional_formatting.add(rng, CellIsRule("equal", ["TRUE"], green))
+        ws.conditional_formatting.add(rng, CellIsRule("equal", ["FALSE"], red))
+
+    sel_col = get_column_letter(df.columns.get_loc("Selected") + 2)
+    base_cols = len(df.columns)
+    for i, tag in enumerate(t_tags):
+        colp = base_cols + 2 + i
+        ws.cell(row=1, column=colp, value=f"{tag}_cum")
+        orig_letter = get_column_letter(df.columns.get_loc(tag) + 2)
+        for r in range(2, len(df) + 2):
+            ws.cell(
+                row=r,
+                column=colp,
+                value=f"=COUNTIFS(${sel_col}$2:${sel_col}${r},TRUE,${orig_letter}$2:${orig_letter}${r},TRUE)",
+            )
+
+    # Create an actual Excel Table (with headers, filters, and banded rows)
+    from openpyxl.worksheet.table import Table, TableStyleInfo
+
+    # Total columns in workbook: df columns + index column + cumulative columns
+    total_cols = df.shape[1] + 1 + len(t_tags)
+    end_col = get_column_letter(total_cols)
+    table_ref = f"A1:{end_col}{len(df)+1}"
+    table = Table(displayName="DeckTable", ref=table_ref)
+    tbl_style = TableStyleInfo(
+        name="TableStyleMedium9",
+        showFirstColumn=False,
+        showLastColumn=False,
+        showRowStripes=True,
+        showColumnStripes=False,
+    )
+    table.tableStyleInfo = tbl_style
+    ws.add_table(table)
+    # Save workbook with table
+    wb.save(output)
+    print(f"Excel with images written to {output}")
     db.close()
 
 
