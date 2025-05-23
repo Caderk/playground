@@ -1,1 +1,1 @@
-Excel with images written to deck.xlsx
+Written Excel to deck.xlsx and Mox list to deck_moxfield.txt

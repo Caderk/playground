@@ -1,6 +1,8 @@
 {
+  "types": {
+    "land": { "min": 23, "max": 23 }
+  },
   "tags": {
-    "land": { "min": 23, "max": 23 },
     "ramp": 12,
     "card advantage": 10,
     "removal": 8,

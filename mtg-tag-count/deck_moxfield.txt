@@ -1,0 +1,63 @@
+1 Rin and Seri, Inseparable #removal
+1 Sol Ring #ramp
+1 Command Tower
+1 Arcane Signet #ramp
+1 Exotic Orchard
+1 Reliquary Tower
+1 Swords to Plowshares #removal
+1 Swiftfoot Boots #protects-permanent
+1 Lightning Greaves #protects-permanent
+1 Path of Ancestry
+1 Path to Exile #ramp #removal
+1 Evolving Wilds
+1 Fellwar Stone #ramp
+1 Cultivate #ramp
+1 Rogue's Passage
+1 Myriad Landscape #ramp
+1 Beast Within #removal
+1 Thought Vessel #ramp
+1 Mind Stone #ramp #card advantage
+1 Blasphemous Act #sweeper
+1 Farseek #ramp
+1 Rampant Growth #ramp
+1 Terramorphic Expanse
+1 Chaos Warp #removal
+1 Nature's Lore #ramp
+1 Commander's Sphere #ramp #card advantage
+1 Heroic Intervention #protects-permanent
+1 Solemn Simulacrum #ramp #card advantage
+1 Skullclamp #card advantage
+1 Generous Gift #removal
+1 Windswept Heath
+1 Wooded Foothills
+1 Arid Mesa
+1 Temple of the False God #ramp
+1 Eternal Witness #card advantage #recursion
+1 Yavimaya, Cradle of Growth
+1 Esper Sentinel #card advantage
+1 Fabled Passage
+1 Boseiju, Who Endures #removal
+1 Stomping Ground
+1 Cinder Glade
+1 Temple Garden
+1 Faithless Looting #card advantage
+1 Sacred Foundry
+1 Canopy Vista
+1 City of Brass
+1 Garruk's Uprising #card advantage
+1 Vandalblast #removal #sweeper
+1 Cavern of Souls
+1 Clifftop Retreat
+1 Herald's Horn #card advantage
+1 Return of the Wildspeaker #card advantage
+1 Farewell #sweeper
+1 Austere Command #sweeper
+1 Boros Charm #removal #protects-permanent
+1 Flawless Maneuver #protects-permanent
+1 Sun Titan #ramp #recursion
+1 Finale of Devastation #recursion #tutor
+1 Sevinne's Reclamation #ramp #recursion
+1 Imperial Recruiter #tutor
+1 Chord of Calling #tutor
+1 Green Sun's Zenith #tutor
+1 Eladamri's Call #tutor
