@@ -295,7 +295,9 @@ def main():
     import_lines = []
     for name, count in df[df["Selected"]]["Card"].value_counts().items():
         row = df[df["Card"] == name].iloc[0]
-        applied = [f"#{t}" for t in t_tags if row.get(t, False)]
+        applied = [f"#{t}" for t in t_tags if row.get(t, False)] + [
+            f"#{tp}" for tp in t_types if row.get(tp, False)
+        ]
         line = f"{count} {name}" + (f" {' '.join(applied)}" if applied else "")
         import_lines.append(line)
     with open(mox_file, "w") as mf:
