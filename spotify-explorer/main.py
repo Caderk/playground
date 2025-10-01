@@ -87,6 +87,57 @@ def get_number_input(prompt: str, min_val: int = 1, max_val: int = 50) -> int:
             print("Please enter a valid number")
 
 
+def export_tracks_to_file(df: pd.DataFrame, genre: str):
+    """Export tracks to a playlist file."""
+    import datetime
+    from pathlib import Path
+    
+    # Create exports directory if it doesn't exist
+    export_dir = Path(__file__).parent / "exports"
+    export_dir.mkdir(exist_ok=True)
+    
+    # Generate filename with timestamp
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    genre_clean = genre.replace(" ", "_").replace("/", "_")
+    filename = f"{genre_clean}_{timestamp}.txt"
+    filepath = export_dir / filename
+    
+    try:
+        with open(filepath, "w") as f:
+            # Write header
+            f.write(f"# Spotify Playlist: Top {len(df)} {genre} tracks\n")
+            f.write(f"# Generated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write("#\n")
+            f.write("# HOW TO USE:\n")
+            f.write("# 1. Copy all spotify:track: lines below\n")
+            f.write("# 2. In Spotify Desktop app, create a new playlist\n")
+            f.write("# 3. Press Ctrl+V (Cmd+V on Mac) to paste\n")
+            f.write("# 4. All tracks will be added automatically!\n")
+            f.write("#\n\n")
+            
+            # Write track URIs (one per line)
+            for _, track in df.iterrows():
+                # Extract track ID from external_url
+                track_id = track['id']
+                f.write(f"spotify:track:{track_id}\n")
+            
+            f.write("\n# Track List:\n")
+            for _, track in df.iterrows():
+                f.write(f"# {track['rank']}. {track['name']} - {track['artist']}\n")
+        
+        print(f"\n✅ Exported {len(df)} tracks to: {filepath}")
+        print(f"📁 Location: {filepath.absolute()}")
+        print("\n💡 To import to Spotify:")
+        print("   1. Open Spotify Desktop app")
+        print("   2. Create a new playlist")
+        print("   3. Open the exported file and copy all spotify:track: lines")
+        print("   4. Click in the playlist and paste (Ctrl+V / Cmd+V)")
+        print("   5. All tracks will be added!\n")
+        
+    except Exception as e:
+        print(f"❌ Error exporting: {e}\n")
+
+
 def search_artists_menu(explorer: SpotifyExplorer):
     """Interactive menu for searching artists."""
     print("\n" + "=" * 60)
@@ -179,6 +230,13 @@ def search_tracks_menu(explorer: SpotifyExplorer):
 
         print(format_results(df_display))
         print(f"\n✓ Found {len(df_display)} track(s) in '{genre}'\n")
+
+        # Ask if user wants to export to file
+        export = input(
+            "Export to playlist file? (y/n): "
+        ).strip().lower()
+        if export == 'y':
+            export_tracks_to_file(df, genre)
 
         # Ask if user wants specific rank
         show_rank = input(

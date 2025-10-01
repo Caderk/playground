@@ -5,10 +5,11 @@ Query global Spotify statistics using natural language! Ask questions like "seco
 ## Features
 
 - 🎵 Query global Spotify data (not personal listening history)
-- 🔍 Natural language query processing
-- 📊 Search by genre, popularity, and followers
-- 💾 Smart caching to reduce API calls
+- 🔍 Search by genre, popularity, and followers
+- � Browse available genres
+- �💾 Smart caching to reduce API calls
 - 🎨 Beautiful table formatting in the terminal
+- 📝 **Export track results to importable playlist files**
 
 ## Setup
 
@@ -88,17 +89,36 @@ python main.py
 
 4. **Caching**: Results are cached for 24 hours to speed up repeated queries
 
+## Exporting Playlists
+
+When viewing track search results, you can export them to a playlist file:
+
+1. Search for tracks (option 2)
+2. When prompted "Export to playlist file? (y/n)", type `y`
+3. File will be saved to `exports/` folder with format: `genre_timestamp.txt`
+4. Open the file and copy all `spotify:track:...` lines
+5. In Spotify Desktop app, create a new playlist
+6. Click in the playlist and paste (Ctrl+V / Cmd+V)
+7. All tracks will be added automatically!
+
+**Example:**
+```
+Genre: techno
+Results: 20 tracks
+Export: exports/techno_20251001_143022.txt
+```
+
 ## Project Structure
 
 ```
 spotify-explorer/
 ├── main.py              # Interactive CLI interface
-├── query_engine.py      # Natural language query parser
 ├── spotify_client.py    # Spotify API client wrapper
 ├── requirements.txt     # Python dependencies
 ├── .env                 # API credentials (create this)
 ├── .gitignore          # Git ignore file
-└── cache/              # Cached query results (auto-created)
+├── cache/              # Cached query results (auto-created)
+└── exports/            # Exported playlist files (auto-created)
 ```
 
 ## Tips

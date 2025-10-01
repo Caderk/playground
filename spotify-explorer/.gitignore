@@ -22,6 +22,9 @@ env/
 cache/
 *.db
 
+# Exports
+exports/
+
 # OS
 .DS_Store
 Thumbs.db
