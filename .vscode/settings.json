@@ -1,0 +1,65 @@
+{
+  // Python Interpreter Configuration
+  // Note: Each sub-project has its own .vscode/settings.json with project-specific interpreter
+  // This is just the workspace-level fallback
+  "python.defaultInterpreterPath": "python3",
+
+  // Folder-specific Python interpreters
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+
+  // Jupyter Notebook Configuration
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  // Python Testing
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["."],
+
+  // Python Linting
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedImport": "information",
+    "reportUnusedVariable": "information"
+  },
+
+  // File exclusions for cleaner workspace
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.ipynb_checkpoints": true,
+    "**/*.pyc": true,
+    "**/.DS_Store": true
+  },
+
+  "search.exclude": {
+    "**/__pycache__": true,
+    "**/.venv": true,
+    "**/.pytest_cache": true,
+    "**/.ipynb_checkpoints": true,
+    "**/*.db": true
+  },
+
+  // Auto-save configuration
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // Trailing whitespace
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Terminal integration
+  "terminal.integrated.env.linux": {
+    "PYTHONPATH": "${workspaceFolder}"
+  }
+}

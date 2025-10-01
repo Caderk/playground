@@ -1,0 +1,29 @@
+{
+  "recommendations": [
+    // Core Python Development
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "ms-python.isort",
+
+    // Jupyter Notebooks
+    "ms-toolsai.jupyter",
+    "ms-toolsai.jupyter-keymap",
+    "ms-toolsai.jupyter-renderers",
+
+    // Data Visualization & Excel
+    "GrapeCity.gc-excelviewer",
+
+    // Git Integration
+    "eamodio.gitlens",
+
+    // Code Quality
+    "ms-python.pylint",
+    "ms-python.flake8",
+
+    // General Productivity
+    "christian-kohler.path-intellisense",
+    "streetsidesoftware.code-spell-checker"
+  ],
+  "unwantedRecommendations": []
+}

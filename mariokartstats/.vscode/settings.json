@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": "python3",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": ["${workspaceFolder}"],
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

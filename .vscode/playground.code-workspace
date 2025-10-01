@@ -5,32 +5,90 @@
       "path": ".."
     },
     {
+      "name": "ruufsolar",
       "path": "../ruufsolar"
     },
     {
+      "name": "coding_problems",
       "path": "../coding_problems"
     },
     {
+      "name": "neetcode150",
       "path": "../neetcode150"
     },
     {
+      "name": "mariokartstats",
       "path": "../mariokartstats"
     },
     {
+      "name": "credit_card_debt",
       "path": "../credit_card_debt"
     },
     {
+      "name": "mtg-tag-count",
       "path": "../mtg-tag-count"
+    },
+    {
+      "name": "spotify-explorer",
+      "path": "../spotify-explorer"
     }
   ],
   "settings": {
+    // Global workspace settings
     "files.exclude": {
       "coding_problems": true,
       "ruufsolar": true,
       "neetcode150": true,
       "mariokartstats": true,
       "mtg-tag-count": true,
-      "credit_card_debt": true
+      "credit_card_debt": true,
+      "spotify-explorer": true
+    },
+
+    // Default Python interpreter (system Python)
+    "python.defaultInterpreterPath": "python3",
+
+    // Folder-specific Python interpreter settings
+    "python.analysis.extraPaths": [
+      "${workspaceFolder:mtg-tag-count}",
+      "${workspaceFolder:credit_card_debt}",
+      "${workspaceFolder:neetcode150}",
+      "${workspaceFolder:coding_problems}",
+      "${workspaceFolder:mariokartstats}",
+      "${workspaceFolder:ruufsolar}",
+      "${workspaceFolder:spotify-explorer}"
+    ],
+
+    // Jupyter configuration
+    "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+    "notebook.output.textLineLimit": 50,
+
+    // Python formatting and linting
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
+      "editor.rulers": [88, 120]
+    },
+
+    // File associations
+    "files.associations": {
+      "*.ipynb": "jupyter-notebook"
     }
+  },
+
+  // Folder-specific settings overrides
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-python.black-formatter",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.jupyter-keymap",
+      "ms-toolsai.jupyter-renderers",
+      "GrapeCity.gc-excelviewer"
+    ]
   }
 }
