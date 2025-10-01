@@ -106,14 +106,15 @@ def search_artists_menu(explorer: SpotifyExplorer):
     print("\n⏳ Searching Spotify...\n")
 
     try:
-        artists = explorer.search_artists_by_genre(genre, limit=limit)
+        # Fetch comprehensive artist list (ignore limit parameter in API call)
+        artists = explorer.search_artists_by_genre(genre, limit=100)
 
         if not artists:
             print(f"❌ No artists found for genre '{genre}'")
             print("💡 Try a more common genre name")
             return
 
-        # Convert to DataFrame
+        # Convert to DataFrame and sort by user's choice
         df = pd.DataFrame(artists)
         df = df.sort_values(by=sort_by, ascending=False).head(limit)
         df["rank"] = range(1, len(df) + 1)
@@ -159,14 +160,15 @@ def search_tracks_menu(explorer: SpotifyExplorer):
     print("\n⏳ Searching Spotify...\n")
 
     try:
-        tracks = explorer.search_tracks_by_genre(genre, limit=limit)
+        # Fetch comprehensive track list
+        tracks = explorer.search_tracks_by_genre(genre, limit=100)
 
         if not tracks:
             print(f"❌ No tracks found for genre '{genre}'")
             print("💡 Try a more common genre name")
             return
 
-        # Convert to DataFrame
+        # Convert to DataFrame and apply user's limit
         df = pd.DataFrame(tracks)
         df = df.sort_values(by="popularity", ascending=False).head(limit)
         df["rank"] = range(1, len(df) + 1)

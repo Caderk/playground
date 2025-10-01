@@ -104,10 +104,13 @@ spotify-explorer/
 ## Tips
 
 - Be specific with genre names (e.g., "drum and bass" not just "dnb")
-- You can use ordinal numbers (first, second, third) or "top N" format
+- Use option 3 to browse available genres before searching
 - The app uses Spotify's public data, so results reflect global popularity
-- Cache is automatically cleared after 24 hours
-- Use the `clear` command to manually refresh data
+- Genre names are **case-insensitive** ("Hard Techno" = "hard techno")
+- Results are **cached for 24 hours** for consistency and speed
+- Use the `clear cache` command to get fresh data from Spotify
+- The first search for a genre will take longer as it fetches comprehensive data
+- Subsequent searches for the same genre will be instant (using cached data)
 
 ## Limitations
 

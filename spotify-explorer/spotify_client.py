@@ -49,7 +49,10 @@ class SpotifyExplorer:
         Returns:
             List of artist dictionaries with name, followers, popularity, genres
         """
-        cache_file = self.cache_dir / f"artists_{genre.replace(' ', '_')}.json"
+        # Normalize genre for consistent caching and searching
+        genre_normalized = genre.lower().strip()
+        cache_key = genre_normalized.replace(" ", "_")
+        cache_file = self.cache_dir / f"artists_{cache_key}.json"
 
         # Check cache (valid for 24 hours)
         if cache_file.exists():
@@ -58,55 +61,65 @@ class SpotifyExplorer:
                 with open(cache_file, "r") as f:
                     return json.load(f)
 
-        artists = []
+        artists_dict = {}  # Use dict to avoid duplicates by ID
 
-        # Search for artists using the genre as a query
-        # We'll do multiple searches with different terms to get more results
-        search_terms = [f'genre:"{genre}"', genre]
-
-        seen_ids = set()
+        # Search for artists using multiple strategies
+        # Use normalized genre for consistent results
+        search_terms = [
+            f'genre:"{genre_normalized}"',
+            genre_normalized,
+            f"{genre_normalized} music",
+        ]
 
         for term in search_terms:
             try:
-                results = self.sp.search(q=term, type="artist", limit=min(limit, 50))
+                # Get multiple pages of results for more comprehensive data
+                for offset in [0, 50]:
+                    results = self.sp.search(
+                        q=term, type="artist", limit=50, offset=offset
+                    )
 
-                for artist in results["artists"]["items"]:
-                    if artist["id"] not in seen_ids:
-                        seen_ids.add(artist["id"])
+                    for artist in results["artists"]["items"]:
+                        artist_id = artist["id"]
+
+                        # Skip if already processed
+                        if artist_id in artists_dict:
+                            continue
 
                         # Filter by genre match
                         artist_genres = [g.lower() for g in artist.get("genres", [])]
-                        genre_lower = genre.lower()
 
                         # Check if genre matches (exact or partial match)
-                        if any(genre_lower in g for g in artist_genres):
-                            artists.append(
-                                {
-                                    "id": artist["id"],
-                                    "name": artist["name"],
-                                    "followers": artist["followers"]["total"],
-                                    "popularity": artist["popularity"],
-                                    "genres": artist["genres"],
-                                    "external_url": artist["external_urls"]["spotify"],
-                                    "images": artist["images"],
-                                }
-                            )
-
-                if len(artists) >= limit:
-                    break
+                        if any(genre_normalized in g for g in artist_genres):
+                            artists_dict[artist_id] = {
+                                "id": artist_id,
+                                "name": artist["name"],
+                                "followers": artist["followers"]["total"],
+                                "popularity": artist["popularity"],
+                                "genres": artist["genres"],
+                                "external_url": artist["external_urls"]["spotify"],
+                                "images": artist["images"],
+                            }
 
             except Exception as e:
-                print(f"Error searching with term '{term}': {e}")
+                # Silently continue if a search fails
                 continue
 
-        # Sort by popularity and followers
-        artists.sort(key=lambda x: (x["popularity"], x["followers"]), reverse=True)
-        artists = artists[:limit]
+        # Convert to list and sort deterministically for consistent ordering
+        # Sort by popularity, then followers, then name
+        # This ensures the same artists appear in the same order
+        artists = sorted(
+            artists_dict.values(),
+            key=lambda x: (x["popularity"], x["followers"], x["name"]),
+            reverse=True,
+        )
 
-        # Cache results
+        # Cache ALL results (don't limit here)
+        # Limiting will be done in main.py based on user preference
         with open(cache_file, "w") as f:
             json.dump(artists, f, indent=2)
 
+        # Return all artists (main.py will handle limiting)
         return artists
 
     def get_artist_details(self, artist_id: str) -> Dict:
@@ -163,7 +176,10 @@ class SpotifyExplorer:
         Returns:
             List of track dictionaries
         """
-        cache_file = self.cache_dir / f"tracks_{genre.replace(' ', '_')}.json"
+        # Normalize genre for consistent caching and searching
+        genre_normalized = genre.lower().strip()
+        cache_key = genre_normalized.replace(" ", "_")
+        cache_file = self.cache_dir / f"tracks_{cache_key}.json"
 
         # Check cache
         if cache_file.exists():
@@ -172,36 +188,61 @@ class SpotifyExplorer:
                 with open(cache_file, "r") as f:
                     return json.load(f)
 
-        tracks = []
+        tracks_dict = {}  # Use dict to avoid duplicates by ID
 
-        try:
-            results = self.sp.search(
-                q=f'genre:"{genre}"', type="track", limit=min(limit, 50)
-            )
+        # Search with multiple strategies for comprehensive results
+        search_terms = [
+            f'genre:"{genre_normalized}"',
+            f"{genre_normalized} music",
+        ]
 
-            for track in results["tracks"]["items"]:
-                tracks.append(
-                    {
-                        "id": track["id"],
-                        "name": track["name"],
-                        "artist": track["artists"][0]["name"],
-                        "artist_id": track["artists"][0]["id"],
-                        "popularity": track["popularity"],
-                        "album": track["album"]["name"],
-                        "external_url": track["external_urls"]["spotify"],
-                    }
-                )
+        for term in search_terms:
+            try:
+                # Get multiple pages of results
+                for offset in [0, 50]:
+                    results = self.sp.search(
+                        q=term, type="track", limit=50, offset=offset
+                    )
 
-        except Exception as e:
-            print(f"Error searching tracks: {e}")
+                    for track in results["tracks"]["items"]:
+                        track_id = track["id"]
 
-        # Sort by popularity
-        tracks.sort(key=lambda x: x["popularity"], reverse=True)
+                        # Skip if already processed
+                        if track_id in tracks_dict:
+                            continue
 
-        # Cache results
+                        # Verify track artist has matching genre
+                        artist = self.sp.artist(track["artists"][0]["id"])
+                        artist_genres = [g.lower() for g in artist.get("genres", [])]
+
+                        if any(genre_normalized in g for g in artist_genres):
+                            tracks_dict[track_id] = {
+                                "id": track_id,
+                                "name": track["name"],
+                                "artist": track["artists"][0]["name"],
+                                "artist_id": track["artists"][0]["id"],
+                                "popularity": track["popularity"],
+                                "album": track["album"]["name"],
+                                "external_url": track["external_urls"]["spotify"],
+                            }
+
+            except Exception:
+                # Silently continue if a search fails
+                continue
+
+        # Convert to list and sort deterministically
+        # Sort by popularity, then name for consistency
+        tracks = sorted(
+            tracks_dict.values(),
+            key=lambda x: (x["popularity"], x["name"]),
+            reverse=True,
+        )
+
+        # Cache ALL results (don't limit here)
         with open(cache_file, "w") as f:
             json.dump(tracks, f, indent=2)
 
+        # Return all tracks (main.py will handle limiting)
         return tracks
 
     def get_available_genres(self) -> List[str]:
