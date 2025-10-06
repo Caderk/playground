@@ -8,8 +8,9 @@ Usage:
 import sys
 
 import pandas as pd
-from spotify_client import SpotifyExplorer
 from tabulate import tabulate
+
+from spotify_client import SpotifyExplorer
 
 
 def print_banner():
@@ -30,9 +31,10 @@ def print_menu():
 Choose an option:
   1. Search artists by genre
   2. Search tracks by genre
-  3. Browse/search available genres
-  4. Clear cache
-  5. Quit
+  3. Get top songs from top artists (playlist builder)
+  4. Browse/search available genres
+  5. Clear cache
+  6. Quit
     """
     print(menu)
 
@@ -125,7 +127,13 @@ def export_tracks_to_file(df: pd.DataFrame, genre: str):
 
             f.write("\n# Track List:\n")
             for _, track in df.iterrows():
-                f.write(f"# {track['rank']}. {track['name']} - {track['artist']}\n")
+                # Format follower count with commas
+                followers_str = f"{track.get('artist_followers', 0):,}"
+                popularity = track.get('popularity', 0)
+                f.write(
+                    f"# {track['rank']}. {track['name']} - {track['artist']} "
+                    f"(Followers: {followers_str}, Popularity: {popularity})\n"
+                )
 
         print(f"\n✅ Exported {len(df)} tracks to: {filepath}")
         print(f"📁 Location: {filepath.absolute()}")
@@ -256,6 +264,69 @@ def search_tracks_menu(explorer: SpotifyExplorer):
         print(f"❌ Error: {e}\n")
 
 
+def top_songs_from_top_artists_menu(explorer: SpotifyExplorer):
+    """Interactive menu for getting top songs from top artists."""
+    print("\n" + "=" * 60)
+    print("Top Songs from Top Artists - Playlist Builder")
+    print("=" * 60)
+    
+    genre = input("\nEnter genre (e.g., 'drum and bass', 'techno'): ").strip()
+    if not genre:
+        print("❌ Genre is required")
+        return
+    
+    num_artists = get_number_input(
+        "How many top artists? (1-50, default 50): ", 1, 50
+    )
+    if num_artists == 10:  # User pressed Enter (default from get_number_input)
+        num_artists = 50
+    
+    tracks_per_artist = get_number_input(
+        "Tracks per artist? (1-10, default 5): ", 1, 10
+    )
+    if tracks_per_artist == 10:  # Check if it's the default
+        tracks_per_artist = 5
+    
+    total_tracks = num_artists * tracks_per_artist
+    print(f"\n💡 Will collect ~{total_tracks} tracks total")
+    print("⏳ This may take a minute...\n")
+    
+    try:
+        # Fetch tracks
+        tracks = explorer.get_top_tracks_from_top_artists(
+            genre, num_artists, tracks_per_artist
+        )
+        
+        if not tracks:
+            print(f"❌ No tracks found for genre '{genre}'")
+            print("💡 Try a more common genre name")
+            return
+        
+        # Convert to DataFrame for display
+        df = pd.DataFrame(tracks)
+        
+        # Add rank column to the main DataFrame
+        df["rank"] = range(1, len(df) + 1)
+        
+        # Show preview
+        print(f"\n📊 Preview of results ({len(df)} tracks):")
+        preview_df = df[["rank", "name", "artist", "popularity"]].head(10)
+        print(format_results(preview_df))
+        
+        if len(df) > 10:
+            print(f"... and {len(df) - 10} more tracks")
+        
+        print(f"\n✓ Found {len(df)} track(s) from top {num_artists} artists\n")
+        
+        # Ask if user wants to export
+        export = input("Export to playlist file? (y/n): ").strip().lower()
+        if export == "y":
+            export_tracks_to_file(df, genre)
+    
+    except Exception as e:
+        print(f"❌ Error: {e}\n")
+
+
 def browse_genres_menu(explorer: SpotifyExplorer):
     """Interactive menu for browsing and searching genres."""
     print("\n" + "=" * 60)
@@ -319,22 +390,24 @@ def main():
 
     while True:
         print_menu()
-        choice = input("\nSelect option (1-5): ").strip()
+        choice = input("\nSelect option (1-6): ").strip()
 
         if choice == "1":
             search_artists_menu(explorer)
         elif choice == "2":
             search_tracks_menu(explorer)
         elif choice == "3":
-            browse_genres_menu(explorer)
+            top_songs_from_top_artists_menu(explorer)
         elif choice == "4":
+            browse_genres_menu(explorer)
+        elif choice == "5":
             explorer.clear_cache()
             print("\n✓ Cache cleared!\n")
-        elif choice == "5":
+        elif choice == "6":
             print("\nThanks for using Spotify Explorer! 👋\n")
             break
         else:
-            print("\n❌ Invalid choice. Please select 1-5.\n")
+            print("\n❌ Invalid choice. Please select 1-6.\n")
 
     return 0
 

@@ -157,6 +157,7 @@ class SpotifyExplorer:
         tracks = self.sp.artist_top_tracks(artist_id, country=country)
         return [
             {
+                "id": track["id"],
                 "name": track["name"],
                 "popularity": track["popularity"],
                 "album": track["album"]["name"],
@@ -370,6 +371,202 @@ class SpotifyExplorer:
         matching = [g for g in all_genres if query_lower in g.lower()]
 
         return matching
+
+    def get_top_tracks_from_top_artists(
+        self, genre: str, num_artists: int = 50, tracks_per_artist: int = 5
+    ) -> List[Dict]:
+        """
+        Get top tracks from the most followed artists in a genre.
+
+        Args:
+            genre: Genre name
+            num_artists: Number of top artists to include (default: 50)
+            tracks_per_artist: Number of top tracks per artist (default: 5, max: 10)
+
+        Returns:
+            List of track dictionaries with artist info
+        """
+        # Normalize genre for consistent caching
+        genre_normalized = genre.lower().strip()
+        cache_key = genre_normalized.replace(" ", "_")
+        cache_file = self.cache_dir / f"top_tracks_top_artists_{cache_key}.json"
+
+        # Check cache (valid for 24 hours)
+        if cache_file.exists():
+            cache_age = time.time() - cache_file.stat().st_mtime
+            if cache_age < 86400:  # 24 hours
+                with open(cache_file, "r") as f:
+                    return json.load(f)
+
+        print(f"Fetching top {num_artists} artists in '{genre}'...")
+        
+        # Get artists sorted by followers
+        artists = self.search_artists_by_genre(genre, limit=100)
+        
+        if not artists:
+            return []
+        
+        # Sort by followers (most followed first) and take top N
+        artists_sorted_desc = sorted(
+            artists, key=lambda x: x["followers"], reverse=True
+        )[:num_artists]
+        
+        print(f"Found {len(artists_sorted_desc)} artists. Fetching top tracks...")
+        
+        tracks_per_artist = min(tracks_per_artist, 10)  # Spotify limit is 10
+        
+        # Store artist tracks: artist_id -> list of track dicts
+        artist_track_lists = {}
+        
+        # Maps track_id -> {"artist_id": str, "followers": int}
+        track_assignments = {}
+        
+        # First pass: get all top tracks for all artists (in desc order)
+        for i, artist in enumerate(artists_sorted_desc, 1):
+            try:
+                print(f"  [{i}/{len(artists_sorted_desc)}] {artist['name']}")
+                top_tracks = self.get_artist_top_tracks(artist["id"])
+                artist_track_lists[artist["id"]] = {
+                    "artist": artist,
+                    "top_tracks": top_tracks,
+                    "assigned_tracks": []
+                }
+            except Exception as e:
+                print(f"    ⚠️  Error: {artist['name']}: {e}")
+                continue
+        
+        # Sort artists in ASCENDING order (least followed first)
+        # This ensures least followed artists get first pick of shared tracks
+        artists_sorted_asc = sorted(
+            artists_sorted_desc, key=lambda x: x["followers"]
+        )
+        
+        # Second pass: assign tracks, avoiding duplicates
+        # Process in ascending order so least followed picks first
+        for artist in artists_sorted_asc:
+            artist_id = artist["id"]
+            
+            if artist_id not in artist_track_lists:
+                continue
+            
+            artist_data = artist_track_lists[artist_id]
+            top_tracks = artist_data["top_tracks"]
+            assigned_tracks = artist_data["assigned_tracks"]
+            
+            track_idx = 0
+            while (len(assigned_tracks) < tracks_per_artist and
+                   track_idx < len(top_tracks)):
+                track = top_tracks[track_idx]
+                track_id = track["id"]
+                track_idx += 1
+                
+                # Check if already assigned
+                if track_id in track_assignments:
+                    assigned_to = track_assignments[track_id]
+                    
+                    # If current artist has FEWER followers, steal it
+                    if artist["followers"] < assigned_to["followers"]:
+                        # Remove from previous artist
+                        prev_artist_data = artist_track_lists[assigned_to["id"]]
+                        prev_artist_data["assigned_tracks"] = [
+                            t for t in prev_artist_data["assigned_tracks"]
+                            if t["id"] != track_id
+                        ]
+                        
+                        # Assign to current artist
+                        track_assignments[track_id] = {
+                            "id": artist_id,
+                            "followers": artist["followers"]
+                        }
+                        
+                        assigned_tracks.append({
+                            "id": track_id,
+                            "name": track["name"],
+                            "artist": artist["name"],
+                            "artist_id": artist_id,
+                            "artist_followers": artist["followers"],
+                            "popularity": track["popularity"],
+                            "album": track["album"],
+                            "external_url": track["external_url"],
+                        })
+                    # else: skip, keep looking
+                else:
+                    # New track, assign it
+                    track_assignments[track_id] = {
+                        "id": artist_id,
+                        "followers": artist["followers"]
+                    }
+                    
+                    assigned_tracks.append({
+                        "id": track_id,
+                        "name": track["name"],
+                        "artist": artist["name"],
+                        "artist_id": artist_id,
+                        "artist_followers": artist["followers"],
+                        "popularity": track["popularity"],
+                        "album": track["album"],
+                        "external_url": track["external_url"],
+                    })
+        
+        # Third pass: backfill artists who lost tracks
+        # Process in ascending order again for consistency
+        for artist in artists_sorted_asc:
+            artist_id = artist["id"]
+            
+            if artist_id not in artist_track_lists:
+                continue
+            
+            artist_data = artist_track_lists[artist_id]
+            top_tracks = artist_data["top_tracks"]
+            assigned_tracks = artist_data["assigned_tracks"]
+            
+            # If this artist needs more tracks
+            if len(assigned_tracks) < tracks_per_artist:
+                # Look through remaining tracks
+                for track in top_tracks:
+                    if len(assigned_tracks) >= tracks_per_artist:
+                        break
+                    
+                    track_id = track["id"]
+                    
+                    # Skip if already in this artist's list
+                    if any(t["id"] == track_id for t in assigned_tracks):
+                        continue
+                    
+                    # Skip if assigned to someone else
+                    if track_id in track_assignments:
+                        continue
+                    
+                    # Add this track
+                    track_assignments[track_id] = {
+                        "id": artist_id,
+                        "followers": artist["followers"]
+                    }
+                    
+                    assigned_tracks.append({
+                        "id": track_id,
+                        "name": track["name"],
+                        "artist": artist["name"],
+                        "artist_id": artist_id,
+                        "artist_followers": artist["followers"],
+                        "popularity": track["popularity"],
+                        "album": track["album"],
+                        "external_url": track["external_url"],
+                    })
+        
+        # Collect all tracks
+        all_tracks = []
+        for artist_data in artist_track_lists.values():
+            all_tracks.extend(artist_data["assigned_tracks"])
+        
+        # Cache the results
+        with open(cache_file, "w") as f:
+            json.dump(all_tracks, f, indent=2)
+        
+        num_artists = len(artists_sorted_desc)
+        print(f"✓ Collected {len(all_tracks)} tracks from {num_artists} artists")
+        
+        return all_tracks
 
     def clear_cache(self):
         """Clear all cached data."""
