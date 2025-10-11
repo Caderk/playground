@@ -568,6 +568,36 @@ class SpotifyExplorer:
         
         return all_tracks
 
+    def search_artist_by_name(self, artist_name: str) -> List[Dict]:
+        """
+        Search for artists by name and return their details with genres.
+
+        Args:
+            artist_name: Artist name to search for
+
+        Returns:
+            List of matching artist dictionaries with details
+        """
+        try:
+            results = self.sp.search(q=f'artist:{artist_name}', type='artist', limit=10)
+            
+            artists = []
+            for artist in results['artists']['items']:
+                artists.append({
+                    'id': artist['id'],
+                    'name': artist['name'],
+                    'followers': artist['followers']['total'],
+                    'popularity': artist['popularity'],
+                    'genres': artist['genres'],
+                    'external_url': artist['external_urls']['spotify'],
+                    'images': artist['images']
+                })
+            
+            return artists
+        except Exception as e:
+            print(f"Error searching for artist: {e}")
+            return []
+
     def clear_cache(self):
         """Clear all cached data."""
         for cache_file in self.cache_dir.glob("*.json"):

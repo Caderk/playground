@@ -33,8 +33,9 @@ Choose an option:
   2. Search tracks by genre
   3. Get top songs from top artists (playlist builder)
   4. Browse/search available genres
-  5. Clear cache
-  6. Quit
+  5. Search artist by name (get genre tags)
+  6. Clear cache
+  7. Quit
     """
     print(menu)
 
@@ -327,6 +328,63 @@ def top_songs_from_top_artists_menu(explorer: SpotifyExplorer):
         print(f"❌ Error: {e}\n")
 
 
+def search_artist_menu(explorer: SpotifyExplorer):
+    """Interactive menu for searching an artist by name."""
+    print("\n" + "=" * 60)
+    print("Search Artist by Name")
+    print("=" * 60)
+    
+    artist_name = input("\nEnter artist name: ").strip()
+    if not artist_name:
+        print("❌ Artist name is required")
+        return
+    
+    print("\n⏳ Searching Spotify...\n")
+    
+    try:
+        artists = explorer.search_artist_by_name(artist_name)
+        
+        if not artists:
+            print(f"❌ No artists found matching '{artist_name}'")
+            return
+        
+        print(f"📋 Found {len(artists)} artist(s) matching '{artist_name}':\n")
+        
+        for i, artist in enumerate(artists, 1):
+            print(f"{i}. {artist['name']}")
+            print(f"   Followers: {artist['followers']:,}")
+            print(f"   Popularity: {artist['popularity']}/100")
+            
+            if artist['genres']:
+                print(f"   Genres: {', '.join(artist['genres'])}")
+            else:
+                print("   Genres: (none listed)")
+            
+            print(f"   Spotify: {artist['external_url']}")
+            print()
+        
+        # Ask if user wants detailed info
+        choice = input("Enter number for more details (or press Enter to skip): ").strip()
+        if choice.isdigit():
+            idx = int(choice) - 1
+            if 0 <= idx < len(artists):
+                artist = artists[idx]
+                print(f"\n🎵 Detailed info for: {artist['name']}")
+                print(f"   Artist ID: {artist['id']}")
+                print(f"   Followers: {artist['followers']:,}")
+                print(f"   Popularity: {artist['popularity']}/100")
+                print(f"   All Genres ({len(artist['genres'])} total):")
+                if artist['genres']:
+                    for genre in artist['genres']:
+                        print(f"     • {genre}")
+                else:
+                    print("     (No genres listed)")
+                print(f"   URL: {artist['external_url']}\n")
+    
+    except Exception as e:
+        print(f"❌ Error: {e}\n")
+
+
 def browse_genres_menu(explorer: SpotifyExplorer):
     """Interactive menu for browsing and searching genres."""
     print("\n" + "=" * 60)
@@ -390,7 +448,7 @@ def main():
 
     while True:
         print_menu()
-        choice = input("\nSelect option (1-6): ").strip()
+        choice = input("\nSelect option (1-7): ").strip()
 
         if choice == "1":
             search_artists_menu(explorer)
@@ -401,13 +459,15 @@ def main():
         elif choice == "4":
             browse_genres_menu(explorer)
         elif choice == "5":
+            search_artist_menu(explorer)
+        elif choice == "6":
             explorer.clear_cache()
             print("\n✓ Cache cleared!\n")
-        elif choice == "6":
+        elif choice == "7":
             print("\nThanks for using Spotify Explorer! 👋\n")
             break
         else:
-            print("\n❌ Invalid choice. Please select 1-6.\n")
+            print("\n❌ Invalid choice. Please select 1-7.\n")
 
     return 0
 
